@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="Actors relationships are important to understand links between them or between clusters of similar actors. Are there tendencies? Do connections with a certain node grow or decrease? This protocol is spotting these changes, focusing on the most linked website, which have been displayed in the middle of the visualization.">
+
+    <!-- Social media meta tags -->
+	<meta property="og:title" content="How do actors relationships change over time?">
+	<meta property="og:description" content="Actors relationships are important to understand links between them or between clusters of similar actors. Are there tendencies? Do connections with a certain node grow or decrease? This protocol is spotting these changes, focusing on the most linked website, which have been displayed in the middle of the visualization." />
+	<meta property="og:image" content="assets/other/cover.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@densitydesign">
+	<meta name="twitter:title" content="How do actors relationships change over time?">
+	<meta name="twitter:description" content="Actors relationships are important to understand links between them or between clusters of similar actors. Are there tendencies? Do connections with a certain node grow or decrease? This protocol is spotting these changes, focusing on the most linked website, which have been displayed in the middle of the visualization.">
+	<meta name="twitter:image" content="assets/other/cover_twitter.jpg">
+
+    <title>Open culture fostering the scientific publishing debate</title>
+<link rel="shortcut icon" href="assets/other/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- add additional fonts here -->
+
+    <!-- Bootstrap Core and template CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/template-style.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-5816319-16', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+				<div class="sidebar-brand">
+					<a href="index.html" class="text-uppercase">
+						<i class="fa fa-home"></i> Home page
+					</a>
+				</div>
+				<li>
+					<h4>Open culture fostering the scientific publishing debate</h4>
+				</li>
+				<li>
+					<a href="index.html">Introduction</a>
+				</li>
+				<li>
+					<h5 class="text-uppercase">Research questions</h5>
+				</li>
+				<ul class="questions-list">
+				<li>
+					<a href="question1.html">How to define Open Culture?</a>
+				</li>
+				<li>
+					<a href="question2.html">The online controversy: which actors are involved?</a>
+				</li>
+				<li>
+					<a href="question3.html">How do actors relationships change over time?</a>
+				</li>
+				<li>
+					<a href="question4.html">How do the controversy related topics evolve over time?</a>
+				</li>
+				<li>
+					<a href="question5.html">Which are the most debated topics on wikipedia talks?</a>
+				</li>
+				<li>
+					<a href="question6.html">Which are the most debated topics on online articles?</a>
+				</li>
+				<li>
+					<a href="question7.html">What is the distribution and impact of piracy on the controversy?</a>
+				</li>
+				<li>
+					<a href="question8.html">What is the distribution and impact of boycott on the controversy?</a>
+				</li>
+				</ul>
+			</ul>
+        </div>
+
+        <!-- Research question title and menu button  -->
+        <div id="question">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-9 question-box">
+                        <div class="arrows-container">
+                            <div class="arrow-left">
+                                <h5>
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    <a>prev</a>
+                                </h5>
+                            </div>
+                            <div class="arrow-right">
+                                <h5>
+                                    <a>next</a> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </h5>
+                            </div>
+                        </div>
+                        <h5 class="text-uppercase">research question</h5>
+                        <h1>How do actors relationships change over time?</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <div class="my-viz">
+                <!-- Add your viz here -->
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="hvr-underline-from-center" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Overall</a>
+                            </h4>
+
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <video class="hero-video" autoplay loop><source src="assets/question3/colink.mp4" type="video/mp4"> Your browser does not support the video tag.</video>                      
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="hvr-underline-from-center" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> 2013</a>
+                            </h4>
+
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <iframe class="viz-gruppo-3" style="padding: 15px;" src="assets/question3/2013totale/index.html"></iframe>                      
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="hvr-underline-from-center" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> 2014</a>
+                            </h4>
+
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div id="#svgactors"></div>
+                                <iframe class="viz-gruppo-3" style="padding: 15px;" src="assets/question3/2014totale/index.html"></iframe>                      
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="hvr-underline-from-center" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"> 2015</a>
+                            </h4>
+
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <iframe class="viz-gruppo-3" style="padding: 15px;" src="assets/question3/2015totale/index.html"></iframe>                      
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="hvr-underline-from-center" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"> 2016</a>
+                            </h4>
+
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <iframe class="viz-gruppo-3" style="padding: 15px;" src="assets/question3/2016totale/index.html"></iframe>                      
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#description">Description</a></li>
+                            <li><a href="#protocol">Protocol</a></li>
+                            <li><a href="#data">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+
+                        <!-- Description  -->
+                        <div class="section-content" id="description">
+                            <div class="section-text">
+                                <h3>Description</h3>
+                                <p>Actors relationships are important to understand links between them or between clusters of similar actors. Are there tendencies? Do connections with a certain node grow or decrease? This protocol is spotting these changes, focusing on the most linked website, which have been displayed in the middle of the visualization.<br><br>To define the time range, we searched all the actor in Google Trends to understand their online relevance. Spotting the peaks, we could determine the range in which relevant events happened. The first and the last peaks, occurring in 2013 and 2016, have been used as extremities of time range. Relationships have been analyzed in four different years (2013, 2014, 2015, 2016) to provide a snapshot of how actors are related in that precise moment and eventually underline differences over time.<br><br>
+                                <img src="assets/question3/trends.svg"/>
+                                <br><br>The external circle is composed by minor nodes that point to other nodes. For a cleaner result, nodes were filtered excluding all the nodes whose Indegree value was lower than 3. Color codes refer to the typology of website: social networks, database, open culture related websites.<br><br>The comparison of the 4 networks shows an unexpected outcome. While the goal was to spot differences in relationships, we noticed through the years a significant growth of links leading to Creative Commons official website. This could be interpreted only as a growth in the release of contents under CC licenses, since they have to embed the link to the text of the license to be legally effective.<br><br>We were looking for relationships, but we found an effect, a consequence, of the controversy debate.</p>
+                            </div>
+
+                        </div>
+                        <!-- End of intro -->
+
+                        <!-- Protocol  -->
+                        <div class="section-content" id="protocol">
+                            <div class="section-text">
+                                <h3>Protocol</h3>
+                                <img class="protocol-diagram" src="assets/question3/diagramma-dom3.svg"/>
+                                <p><ol class="listina">
+                                    <li>Setting a time range: search each actor in Google Trends and highlight the peaks</li>
+                                    <li>Set range extremities T1 and T2, where T1 is the first peak and T2 is the present time, obtaining a time span from 2013 to 2016</li>
+                                    <li>Extract the actor’s official website link in 2013, 2014, 2015, 2016 using WebArchive for the years in the past</li>
+                                    <li>Insert, for each year, the urls in the tool Issue Crawler and start the analysis with 2 levels of depth</li>
+                                    <li>Use the outcome (the 4 source-target datasets) to generate 4 networks in Gephi to spot the changes through time</li>
+                                </ol></p>
+                            </div>
+                        </div>
+                        <!-- End of protocol  -->
+
+                        <!-- Data  -->
+                        <div class="section-content" id="data">
+                            <div class="section-text">
+                                <h3>Data</h3>
+                                <h4>Timestamp: 01/12/2016 - 05/12/2016</h4>
+                                <h4>Data source: <a href="https://wiki.digitalmethods.net/Dmi/ToolIssueCrawler">Issue Crawler</a></h4>
+                                <h4 class="data-link"><a href="assets/datasets/3-colink-issue-crawler.xlsx"><i class="fa fa-arrow-circle-o-down"></i> Download data (1.2MB)</a></h4>
+
+                                <p>The dataset contains Sources and Targets for the 4 years as exported from Issue Crawler.</p>
+                            </div>
+                        </div>
+                        <!-- End of data  -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="assets/other/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="assets/other/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <li>Your Name</li>
+                            <li>Your Name</li>
+                            <li>Your Name</li>
+                            <li>Your Name</li>
+                            <li>Your Name</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Tommaso Elli</li>
+                            <li>Michele Invernizzi</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Sidemenu and scroll -->
+	<script src="js/scroll.js"></script>
+	<script src="js/sidemenu.js"></script>
+
+    <!-- Menu Toggle and Prev/Next Button Script -->
+    <script>
+        //this variable controls the correct functioning of the next and previous button. Must be the same as the question number.
+        var number = 3;
+        //get the previous question html page
+        $(".arrow-left a").click(function() {
+            var newNumber = number - 1,
+                url = "question" + newNumber + ".html";
+            $(this).attr("href", url);
+        });
+        //get the next question html page
+        $(".arrow-right a").click(function() {
+            var newNumber = number + 1,
+                url = "question" + newNumber + ".html";
+            $(this).attr("href", url);
+        });
+        //toggle menu panel
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Custom JS -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

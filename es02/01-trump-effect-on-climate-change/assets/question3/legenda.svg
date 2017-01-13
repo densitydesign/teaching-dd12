@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="322.5px" height="105.2px" viewBox="0 0 322.5 105.2" style="enable-background:new 0 0 322.5 105.2;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{opacity:0.2;}
+	.st2{fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.4947,0.9894;}
+	.st4{font-family:'CrimsonText-Roman';}
+	.st5{font-size:11px;}
+	.st6{opacity:0.4;fill:#007CA8;enable-background:new    ;}
+	.st7{opacity:0.4;fill:#918F8D;enable-background:new    ;}
+</style>
+<line class="st0" x1="22.7" y1="43.4" x2="22.7" y2="99.3"/>
+<circle class="st1" cx="22.7" cy="43.4" r="22.7"/>
+<circle cx="22.7" cy="43.4" r="1"/>
+<g>
+	<g>
+		<line class="st2" x1="22.7" y1="43.4" x2="23" y2="43.4"/>
+		<line class="st3" x1="23.9" y1="43.4" x2="60.6" y2="43.4"/>
+		<line class="st2" x1="61" y1="43.4" x2="61.3" y2="43.4"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 65.2106 46.2483)" class="st4 st5">ranking score</text>
+<g>
+	<g>
+		<line class="st2" x1="22.7" y1="20.7" x2="23" y2="20.7"/>
+		<line class="st3" x1="23.9" y1="20.7" x2="60.6" y2="20.7"/>
+		<line class="st2" x1="61" y1="20.7" x2="61.3" y2="20.7"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 65.2106 23.5403)" class="st4 st5">number of appearences</text>
+<text transform="matrix(1 0 0 1 219.4678 69.8132)" class="st4 st5">new entry</text>
+<text transform="matrix(1 0 0 1 219.4678 90.4654)" class="st4 st5">stable provider</text>
+<circle class="st6" cx="204.6" cy="67.5" r="6.6"/>
+<circle class="st7" cx="204.6" cy="87.5" r="6.6"/>
+</svg>

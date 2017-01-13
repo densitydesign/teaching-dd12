@@ -1,0 +1,234 @@
+/* Add your styles here */
+.introduction {
+	background: #f5f5f5;
+}
+
+body {
+	background: #f5f5f5;
+}
+
+#viz img {
+	width: 100%;
+}
+
+.my-cover {
+	background:url('../assets/other/cover.jpg') no-repeat center;
+	background-size: cover;
+}
+
+/* QUESTION 1 */
+.trend {
+	margin: auto;
+	width: 70%;
+}
+
+.event {
+	display: inline-block;
+	width: 40%;
+}
+
+/* QUESTION 2 */
+#viz {
+	display: block;
+}
+
+.seealso {
+	height: 680px;
+	margin-bottom: 70px;
+}
+
+#seealso-2016, #seealso-2015, #seealso-2014 {
+	height: 680px;
+	width: 90%;
+	margin: auto;
+	background: rgba(0,0,0,.02);
+	position: absolute;
+	left: 5%;
+}
+
+
+#buttons {
+	text-align: center;
+}
+
+.button {
+	background: white;
+	font-family: 'Karla', sans-serif;
+	padding: 5px 20px 5px 20px;
+	display: inline-block;
+	margin: 10px 5px 10px 5px;
+	font-weight: bold;
+	border-radius: 3px;
+	border: none;
+}
+
+.button:active {
+	box-shadow: none;
+	background: #f0f0f0;
+}
+
+/* QUESTION 3 */
+#provider {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.5em;
+	height: 50px;
+}
+
+.relevance {
+	width: 80%;
+	margin:auto;
+}
+
+/* QUESTION 4 */
+@keyframes pulse {
+    0%   {stroke-width:4;}
+    50%  {stroke-width:24;}
+    100% {stroke-width:4;}
+}
+
+#actors-2014 #trump > circle, #actors-2015 #trump > circle, #actors-2016 #trump > circle {
+	animation: pulse 1.5s ease-out infinite;
+	fill: #93d1e2;
+}
+
+#ip {
+	border: 1px solid #007ca8;
+}
+
+#ip:active, #ip:focus {
+	background: #007ca8;
+	color: white;
+}
+
+#ap {
+	border: 1px solid #93d1e2;
+}
+
+#ap:active, #ap:focus {
+	background: #93d1e2;
+	color: white;
+}
+
+#sci {
+	border: 1px solid #e5c67a;
+}
+
+#sci:active, #sci:focus {
+	background: #e5c67a;
+	color: white;
+}
+
+#ent {
+	border: 1px solid #ff8640;
+}
+
+#ent:active, #ent:focus {
+	background: #ff8640;
+	color: white;
+}
+
+#corp {
+	border: 1px solid #69938c;
+}
+
+#corp:active, #corp:focus {
+	background: #69938c;
+	color: white;
+}
+
+/* QUESTION 5 */	
+.treemap .st0 {
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.treemap .st0:hover {
+	fill: #e4e4e4;
+}
+
+/* QUESTION 7 */
+.timeline {
+	overflow-x: scroll;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.timeline::-webkit-scrollbar
+{
+  height: 5px; /* for horizontal scrollbars */
+}
+
+.timeline::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.timeline::-webkit-scrollbar-thumb
+{
+  background: #007ca8;
+}
+
+#NAMES {
+	cursor: pointer;
+}
+
+#COLORS {
+	cursor: pointer;
+}
+
+/* QUESTION 8 */
+#trump-dixit video {
+	margin: auto;
+}
+
+#cits p {
+	font-family: 'Crimson Text';
+}
+
+#cit-category {
+	height: 30px;
+}
+
+#cit-category b{
+	color: #007ca8;
+}
+
+.personal {
+	background: rgba(0,124,168,0.2);
+	font-style: normal;
+	cursor: pointer;
+	transition: 0.2s ease;
+	padding: 0 2px 0 2px;
+}
+
+.economy {
+	background: rgba(0,124,168,0.2);
+	font-style: normal;
+	cursor: pointer;
+	transition: 0.2s ease;
+	padding: 0 2px 0 2px;
+}
+
+.environment {
+	background: rgba(0,124,168,0.2);
+	font-style: normal;
+	cursor: pointer;
+	transition: 0.2s ease;
+	padding: 0 2px 0 2px;
+}
+
+.work {
+	background: rgba(0,124,168,0.2);
+	font-style: normal;
+	cursor: pointer;
+	transition: 0.2s ease;
+	padding: 0 2px 0 2px;
+}
+
+.agreement {
+	background: rgba(0,124,168,0.2);
+	font-style: normal;
+	cursor: pointer;
+	transition: 0.2s ease;
+	padding: 0 2px 0 2px;
+}

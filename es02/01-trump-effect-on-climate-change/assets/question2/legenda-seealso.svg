@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="847px" height="61.4px" viewBox="0 0 847 61.4" style="enable-background:new 0 0 847 61.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#007CA8;}
+	.st1{font-family:'CrimsonText-Roman';}
+	.st2{font-size:14px;}
+	.st3{fill:#969696;}
+	.st4{fill:#E5C67A;}
+</style>
+<g>
+	<circle class="st0" cx="30.8" cy="31.1" r="12.3"/>
+	<text transform="matrix(1 0 0 1 54.078 35.125)" class="st1 st2">New entry</text>
+</g>
+<g>
+	<circle cx="255.2" cy="31.1" r="12.3"/>
+	<text transform="matrix(1 0 0 1 280.8282 27.125)"><tspan x="0" y="0" class="st1 st2">Stable page</tspan><tspan x="0" y="16.8" class="st1 st2">for one year</tspan></text>
+</g>
+<g>
+	<circle class="st3" cx="482.6" cy="31.1" r="12.3"/>
+	<text transform="matrix(1 0 0 1 505.5083 26.125)"><tspan x="0" y="0" class="st1 st2">Disappearing</tspan><tspan x="0" y="16.8" class="st1 st2">page</tspan></text>
+</g>
+<g>
+	<circle class="st4" cx="684.9" cy="31.1" r="12.3"/>
+	<text transform="matrix(1 0 0 1 708.9163 27.125)"><tspan x="0" y="0" class="st1 st2">New page bound to</tspan><tspan x="0" y="16.8" class="st1 st2">disappear the next year</tspan></text>
+</g>
+</svg>

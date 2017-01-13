@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 900 227.4" style="enable-background:new 0 0 900 227.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C6006B;}
+	.st1{font-family:'Lekton-Bold';}
+	.st2{font-size:13.2317px;}
+	.st3{fill:#141414;}
+	.st4{font-family:'Lekton-Regular';}
+	.st5{fill:none;stroke:#141414;stroke-width:0.4;stroke-miterlimit:10;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;stroke-dasharray:4;}
+</style>
+<text transform="matrix(1 0 0 1 480.8252 40.8092)" class="st0 st1 st2">» keywords</text>
+<text transform="matrix(1 0 0 1 480.8252 56.6872)" class="st0 st1 st2">» exlude nonsignificant words</text>
+<text transform="matrix(1 0 0 1 335.9497 107.8493)" class="st3 st4 st2">most used words</text>
+<text transform="matrix(1 0 0 1 312.7944 123.7282)" class="st3 st4 st2">per State and in total</text>
+<polygon class="st5" points="464,66 385.5,66 307.2,66 307.2,22 464,22 "/>
+<text transform="matrix(1 0 0 1 328.6646 40.8092)" class="st3 st4 st2">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 312.1255 57.7077)" class="st0 st1 st2">KeyWordDensityAnalyzer</text>
+<line class="st5" x1="384.9" y1="66" x2="384.9" y2="93.6"/>
+<text transform="matrix(1 0 0 1 480.8252 178.6383)" class="st0 st1 st2">» Illustrator</text>
+<polygon class="st0" points="464,189.9 385.5,189.9 307.1,189.9 307.1,159.9 464,159.9 "/>
+<text transform="matrix(1 0 0 1 342.5288 178.6393)" class="st6 st4 st2">VISUALIZATION</text>
+<line class="st7" x1="385.5" y1="131.4" x2="385.5" y2="162.5"/>
+</svg>

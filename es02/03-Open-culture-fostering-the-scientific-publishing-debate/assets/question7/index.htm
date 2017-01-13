@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Treemap</title>
+<link rel="shortcut icon" href="assets/other/favicon.ico" type="image/x-icon">
+        <style>
+        body {
+            background: #fff;   
+            }
+        </style>
+        <script src="Snap.svg-0.4.1/dist/snap.svg.js"></script>
+        <script src="http://snapsvg.io/assets/js/snap.svg-min.js"></script>
+        <style type="text/css">
+#serpentone{height:94vh; width:95vw; display: flex; }
+</style>
+    </head>
+    <body>
+        <svg id="serpentone">
+
+        </svg>
+        <script>
+
+			window.onload = function(){
+				
+    			var paper = Snap("#serpentone");
+                
+    			Snap.load("treemapp.svg", function(f){
+
+        			//Code to be executed befor SVG shows which will happen on the next line	
+        				
+        			paper.append(f);
+                    Snap.selectAll('#rombo1','#rombo2','#rombo3','#rombo4','#rombo5','#rombo6','#rombo7','#rombo8','#rombo9','#rombo10','#rombo11','#rombo12','#rombo13','#rombo14','#rombo15').animate({ transform:'r45'}, 0, mina.easeout );
+                    Snap.select('#scritte').animate({"opacity": 0}, 0);
+
+    			});
+    			var paper = Snap("#serpentone");
+                var t;
+
+                function espanRects(){
+                    Snap.select('#rombo2').animate({ transform:'t167,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo3').animate({ transform:'t-165,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo4').animate({ transform:'t-482,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo5').animate({ transform:'t-340,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo6').animate({ transform:'t351,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo7').animate({ transform:'t-93,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo8').animate({ transform:'t-252,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo9').animate({ transform:'t480,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo10').animate({ transform:'t47,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo11').animate({ transform:'t-538,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo12').animate({ transform:'t239,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo13').animate({ transform:'t-380,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo14').animate({ transform:'t-108,0,r45'}, 700, mina.easeout );
+                    Snap.select('#rombo15').animate({ transform:'t385,0,r45'}, 700, mina.easeout );
+                    t = setTimeout(animationScritte, 600);
+                };
+                function animationScritte(){
+                	Snap.select('#scritte').animate({"opacity": 1}, 300, mina.easeout);
+
+                };	
+                function contractRects(){
+                    Snap.select('#rombo2').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo3').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo4').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo5').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo6').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo7').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo8').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo9').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo10').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo11').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo12').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo13').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo14').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#rombo15').animate({ transform:'t0,0,r135'}, 700, mina.easeout );
+                    Snap.select('#scritte').animate({"opacity": 0}, 300);
+                    clearTimeout(t);
+                };
+
+                paper.hover(espanRects, contractRects);  
+
+
+			}
+
+
+        </script>
+      </body>
+</html>

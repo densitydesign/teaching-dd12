@@ -1,0 +1,1133 @@
+body {
+  position: relative;
+}
+
+.spiegazione a:link    {color:black; background-color:transparent; text-decoration:underline}
+.spiegazione a:visited {color:black; background-color:transparent; text-decoration:underline}
+.spiegazione a:hover   {color:black; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+/*COPERTINA COPERTINA COPERTINA COPERTINA COPERTINA*/
+
+
+.copertina{
+    background-color: #1a1a1a;
+    padding-bottom:12%;
+}
+
+
+.copertina h1 {
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top:12%;
+    line-height: 150px;
+}
+
+.copertina mark {
+    background-color: white;
+    color: #1a1a1a;
+    padding: 4px; !important
+
+}
+
+.copertina p {
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    margin-top: 22%;
+    text-transform: none;
+}
+
+.copertina img {
+    margin-top: 25%;
+    margin-bottom: 10%
+
+}
+
+/* NAVBAR NAVBAR NAVBAR NAVBAR*/
+.container-navbar{
+    padding: 8px;
+    background-color: #1a1a1a;
+}
+
+.navbar-custom {
+    padding: 0px;
+    background-color: white;
+    border: none;
+    font-family: "inconsolata";
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 100;
+    top: 0;
+    -webkit-transition: top 0.5s ease-in-out;
+    transition: top 0.5s ease-in-out;
+    text-align: center;
+}
+
+.nav-up{
+top:-110px;
+}
+
+.navbar-custom ul {
+  display: inline-block;
+  float: none;
+}
+                                                  /* dispositivo piccolo */
+.navbar-toggle {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+
+}
+
+.navbar-custom li a {
+    margin: 0 30px;
+    color: white;
+}
+
+.navbar-custom .nav li.active a {
+  color: white;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 3px solid;
+  height:43px !important;
+
+
+}
+
+.navbar-custom .nav li a:hover {
+  color: white;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 3px solid;
+  height:43px !important;
+
+}
+
+.navbar-custom li a:focus{
+    background-color: transparent !important;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 0px 0;
+    letter-spacing: 1px;
+
+  }
+
+}
+
+
+
+
+/* SPIEGAZIONE PROGETTO */
+
+
+.spiegazione{
+    background-color: #fff;
+}
+
+.spiegazione p{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 21px;
+    margin-top: 20px;
+    letter-spacing: 0.6px;
+}
+
+
+.religious{
+   background-color: #69e2c8;
+    color: black;
+    font-weight: normal;
+    padding: 2.5px; !important
+}
+
+.political{
+   background-color: #db3400;
+    color: black;
+    font-weight: bold;
+    opacity: 0.85;
+    padding: 2.5px; !important
+}
+
+.ethnic{
+   background-color: #ffe19f;
+    color: black;
+    font-weight: bold;
+    padding: 2.5px; !important
+}
+
+
+
+/* VIDEO SPIEGAZIONE */
+
+.video-spiegazione{
+    margin-top: 60px;
+    margin-bottom: 160px
+}
+
+#gif-spiegazione{
+    padding-right: 3.5%;
+    margin-bottom: 25px;
+}
+
+
+.video-spiegazione h4{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 28px;
+}
+
+.video-spiegazione h4 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+.video-spiegazione p{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 20px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 0.2px
+
+}
+
+
+
+/* CARATTERISTICHE TITOLI SEZIONI */
+
+
+.section{
+    margin-top:0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+                                        /* numeri grandi */
+.section h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    line-height:55px;
+}
+
+.section h1 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+                                        /*sottolineati neri */
+.section h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height:48px;
+}
+
+.section h2 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+                                    /* sottolineati grigi  */
+.section h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height:38px;
+
+}
+
+.section h3 mark{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 2px; !important
+}
+
+                                        /* sottolineati neri piccoli */
+
+
+.section h4{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 30px;
+
+}
+
+.section h4 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+.section h5{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.section p{
+    font-family: "Inconsolata";
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+    margin: 0;
+    letter-spacing: 0.2px;
+}
+
+.section a:link    {color:black; background-color:transparent; text-decoration:underline}
+.section a:visited {color:black; background-color:transparent; text-decoration:underline}
+.section a:hover   {color:black; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+#europa{
+    text-align: right;
+    margin-top: 80px;
+}
+
+
+.infografica{
+    margin-bottom: 40px;
+}
+
+
+/*ID */
+
+#info-mappa{
+    /*margin-bottom: 40px; */
+}
+
+
+
+
+.mappa{
+    padding: 0px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+                                        /* numeri grandi */
+
+                                        /*sottolineati neri */
+.mappa h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height:60px;
+    position: absolute;
+}
+
+.mappa h2 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+.mappa h5{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 160%;
+}
+
+.mappa a:link    {color:black; background-color:transparent; text-decoration:underline}
+.mappa a:visited {color:black; background-color:transparent; text-decoration:underline}
+.mappa a:hover   {color:black; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+#alluvial-gruppi{
+    text-align: right;
+}
+
+#legenda{
+    margin-top: 2%;
+    padding-left: 5%;
+}
+
+
+
+/* CONTAINER SOTTOSEZIONI NERI */
+
+.container-black{
+    background-color: #1a1a1a;
+    padding: 10px;
+
+}
+                                    /* titolo */
+.container-black h2{
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 90px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 2%;
+}
+                                    /*corpo */
+.container-black p{
+    font-family: 'Inconsolata';
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    padding-left: 2%;
+    letter-spacing: 0.2px;
+}
+
+/* CONTAINER-MEDIA */
+
+.container-media{
+    background-color: #1a1a1a;
+    padding-top: 60px;
+
+}
+                                        /* titolo */
+.container-media h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height:55px;
+}
+
+.container-media h1 mark{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+                                        /* titolo conclusione */
+.container-media h2{
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 90px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 2%;
+}
+                                        /* news */
+.container-media h3{
+    font-family: 'Oswald', sans-serif;
+    color: #f2f2f2;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height:46px;
+
+}
+
+.container-media h3 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+                                    /* lexis nexis */
+
+.container-media h4{
+    font-family: 'Inconsolata';
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 29px;
+}
+
+.container-media h4 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+.container-media h5{
+    font-family: 'Inconsolata', monospace;
+    color: #f2f2f2;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    padding-left: 100px;
+}
+                                            /*attacks */
+.container-media h6{
+    font-family: 'Oswald', sans-serif;
+    color: #f2f2f2;
+    text-align: right;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height:46px;
+    letter-spacing: 0.2px;
+
+}
+
+.container-media p{
+    font-family: 'Inconsolata';
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    letter-spacing: 0.2px
+}
+
+.container-media a:link    {color:#f2f2f2; background-color:transparent; text-decoration:underline}
+.container-media a:visited {color:#f2f2f2; background-color:transparent; text-decoration:underline}
+.container-media a:hover   {color:#f2f2f2; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #f2f2f2;
+    padding: 3%;
+}
+
+.footer img{
+    padding-top: 8%
+}
+
+.footer h4{
+    font-family: "inconsolata";
+    color: #1a1a1a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform:uppercase;
+    line-height: 32px;
+    text-decoration: underline;
+}
+
+.footer h4 mark{
+    background-color: #1A1A1A;
+    color: #f2f2f2;
+    padding: 2px; !important
+}
+
+.footer p{
+    font-family: "Inconsolata";
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+    margin: 0;
+}
+
+.footer p a:link    {color:black; background-color:transparent; text-decoration: none;}
+.footer p a:visited {color:black; background-color:transparent; text-decoration: none;}
+.footer p a:hover   {color:black; background-color:transparent; font-weight: bold; text-decoration: none;}
+
+.row-trendline{
+    margin-bottom: 40px;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GRAPH 01+02 BUMPCHARTS */
+
+
+.G01assi{
+    fill:#f2f2f2;
+}
+.G01text{
+    font-family:'Inconsolata';
+    fill:#1A1A1A;
+    font-size:12px;
+}
+.G01assiverticali{
+    opacity:0.5;
+    fill:none;
+    stroke:#E6E6E6;
+    stroke-miterlimit:10;
+}
+.G01assiverticali2{
+    opacity:0.3;
+    fill:none;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+.G01flusso_religioso{
+    opacity:0.9;
+    fill:#69E2C8;
+}
+.G01flusso_etnico{
+    opacity:0.9;
+    fill:#FFE19F;
+}
+.G01flusso_politico{
+    opacity:0.9;
+    fill:#DB3400;
+}
+
+
+.st0 {
+    fill:none;
+}
+
+.st1 {
+    fill:none;stroke:#1D1D1B;stroke-width:0.3;stroke-linejoin:round;
+}
+
+.st2 {
+    -webkit-clip-path:url(#XMLID_2_);
+            clip-path:url(#XMLID_2_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.st3 {
+    -webkit-clip-path:url(#XMLID_3_);
+            clip-path:url(#XMLID_3_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.st4 {
+    -webkit-clip-path:url(#XMLID_4_);
+            clip-path:url(#XMLID_4_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.st5{
+    -webkit-clip-path:url(#XMLID_5_);
+            clip-path:url(#XMLID_5_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.G02mappa{
+    fill:#F2F2F2;
+}
+
+.G02confini {
+    fill:#FFFFFF;
+}
+
+.G02linee {
+    fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+}
+
+.G02linee.off {
+    opacity: .1;
+}
+
+.G02text {
+    font-family:'Inconsolata';
+    font-size:14px;
+    fill:#1A1A1A;
+}
+
+.G02kill15 {
+    fill:url(#Linee_diagonali);stroke:#1A1A1A;stroke-miterlimit:10;
+}
+
+.G02kill15.off {
+    opacity:0.1
+}
+
+.G02kill05 {
+    fill:url(#Nuovo_pattern_4);stroke:#1A1A1A;stroke-miterlimit:10;
+}
+
+.G02kill05.off {
+    opacity: 0.1;
+}
+
+
+
+/* GRAPH 04 TRENDLINES */
+.G04text{
+    font-family:'Inconsolata';
+    font-size:12px;
+    fill:#1A1A1A;
+}
+.G04assi{
+    fill:#f2f2f2;
+}
+.G04divisori{
+    opacity:0.5;
+    fill:none;
+    stroke:#E6E6E6;
+    stroke-miterlimit:10;
+}
+.G04trend_religioso{
+    fill:#69E2C8;
+}
+.G04trend_politico{
+    fill:#DB3400;
+}
+.G04trend_etnico{
+    fill:#FFE19F;
+}
+
+
+/* 05 PALLOZZI */
+.G05pallozzo_etnico{
+    fill:#FFE19F;
+    opacity:0.7
+}
+.G05pallozzo_politico{
+    fill:#DB3400;
+    opacity:0.7
+}
+.G05pallozzo_religioso{
+    fill:#69E2C8;
+    opacity:0.7
+}
+.G05text{
+    font-family:'Inconsolata';
+    font-size:14px;
+    fill:#1A1A1A;
+}
+
+/* GRAPH 04 PALLUOZZI */
+
+#G05pallozzi_rel{
+    fill:#69E2C8;
+    }
+
+#G05pallozzi_etn{
+    fill:#FFE19F;
+}
+
+#G05pallozzi_pol{
+    fill:#DB3400;
+}
+
+.G05text_grp {
+    font-family:'Inconsolata';
+    fill:#1A1A1A;
+    font-size:14px;
+}
+
+.G05text_vict {
+    font-family:'Inconsolata';
+    fill:#1A1A1A;
+    font-size:31px;
+}
+
+.G05text_numb {
+    font-family:'Inconsolata';
+    fill:#1A1A1A;
+    font-size:67.5676px;
+}
+
+.G05targa {
+    opacity: 0;
+
+}
+
+.G05targa.on {
+    opacity: 1
+}
+
+.G05pallozziNOJS{opacity: .2}
+
+.G05pallozzi{
+    opacity: .2;
+    -webkit-transition: opacity 0.7s ease;
+    transition: opacity 0.7s ease;
+}
+
+.G05pallozzi.on{opacity: 1}
+
+
+
+
+
+/* GRAPH 06 ALLUVIAL GROUPS */
+
+.G06black {
+    fill:#1A1A1A
+}
+.G06gruppi{
+    font-size:14px;
+    fill:#1A1A1A;
+    font-family:'Inconsolata';
+    cursor: pointer;
+    font-weight: bold;
+}
+.G06gruppi.idle {
+    fill:#f2f2f2;
+    font-weight: 100;
+}
+.G06grouprect {
+    opacity: 0
+}
+.G06grouprect.G06recton {
+    opacity:1;
+    fill:#1a1a1a
+}
+.G06flusso_religioso{
+    fill:#69E2C8
+}
+.G06flusso_politico{
+    fill:#DB3400
+}
+.G06flusso_etnico{
+    fill:#FFE19F
+}
+.G06variabili{
+    font-size:12px;
+    fill:#1A1A1A;
+    font-family:'Inconsolata';
+}
+.G06legenda{
+    fill:#FFFFFF;
+    font-family:'Inconsolata';
+    font-size:12px;
+}
+.G06flussi {
+    opacity: 0.1;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+.G06on {
+    opacity: 0.7
+}
+
+
+/* GRAPH 07 SCATTER PLOT */
+.G07texture{
+    opacity:0.5;
+    fill:url(#_x31_0_dpi_10_x25_);
+}
+.G07text{
+    font-family:'Montserrat-Bold';
+    font-size:14px;
+}
+.G07rett{
+    fill:#FFFFFF;
+    stroke:#000000;
+    stroke-width:6;
+    stroke-miterlimit:10;
+}
+.G07etnicoNOJS{
+    fill:#FFE19F;
+    fill-opacity:0.9;
+}
+.G07politicoNOJS{
+    fill:#DB3400;
+    fill-opacity:0.9;
+}
+.G07religiosoNOJS{
+    fill:#69E2C8;
+    fill-opacity:0.9;
+}
+.G07religioso{
+    fill:#69E2C8;
+    fill-opacity:0.9;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-miterlimit:10;
+}
+.G07politico{
+    fill:#DB3400;
+    fill-opacity:0.9;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-miterlimit:10;
+}
+.G07etnico{
+    fill:#FFE19F;
+    fill-opacity:0.9;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-miterlimit:10;
+}
+.G07targa{
+    display:none;
+}
+
+/* LEGENDA SCATTER */
+
+#legenda-scatter{
+   max-width: 14%;
+    margin-top: 46px;
+}
+
+.G07LGblack {
+    fill:#1A1A1A;
+}
+.G07LGtext {
+    font-family:'Inconsolata';
+    fill:#1A1A1A;
+    font-size:14px;
+}
+.G07griglia_vert{
+    opacity:0.5;
+    fill:none;
+    stroke:#F2F2F2;
+    stroke-width:0.9979;
+    stroke-miterlimit:10;
+}
+.G07griglia_orizz{
+    opacity:0.5;
+    fill:none;
+    stroke:#F2F2F2;
+    stroke-miterlimit:10;
+}
+.G07pallozzo_religioso{
+    fill:#69E2C8;
+    fill-opacity:0.9;
+}
+.G07pallozzo_politico{
+    fill:#DB3400;
+    fill-opacity:0.9;
+}
+.G07pallozzo_etnico{
+    fill:#FFE19F;
+    fill-opacity:0.9;
+}
+.G07assi{
+    fill:#f2f2f2;
+}
+.G07text{
+    font-family:'Inconsolata';
+    font-size:14px;
+}
+
+
+/* 5 most terrible */
+
+.GB_num {
+   font-family:'Inconsolata';
+   font-size:67.5676px;
+}
+
+.GB_victim {
+    font-family: 'Inconsolata';
+    font-size: 31px;
+}
+
+.GB_other {
+    font-family:'Inconsolata';
+    font-size:14px;
+}
+
+
+/* G8 ALLLUVIAL VICTIMS */
+
+
+.G08gruppi{
+    font-family:'Inconsolata';
+    fill:#1A1A1A;
+    font-size:14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.G08gruppi.idle {
+    fill:#f2f2f2;
+    font-weight: 100;
+}
+.G08text{
+    font-family:'Inconsolata';
+    fill:#1A1A1A;
+    font-size:12px;
+}
+.G08text2{
+    fill:#1a1a1a;
+    font-family:'Inconsolata';
+    font-size:12px;
+}
+.G08flussi {
+    opacity: 0.1;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;}
+.G08on {
+    opacity: 0.7
+}
+
+.G08flusso_religioso{
+    fill:#69E2C8;
+}
+.G08flusso_politico{
+    fill:#DB3400;
+}
+.G08flusso_etnico{
+    fill:#FFE19F;
+}
+.G08black{
+    fill:#1A1A1A;
+}
+.G08isto_religioso{
+    opacity:0.7;
+    fill:#69E2C8;
+}
+.G08isto_politico{
+    opacity:0.7;
+    fill:#DB3400;
+}
+.G08isto_etnico{
+    opacity:0.7;
+    fill:#FFE19F;
+}
+.G8grouprect {
+    fill:#1A1A1A;
+    opacity:0}
+
+.G8recton {
+    fill:#1A1A1A;
+    opacity: 1;}
+
+
+
+/* G10 MEDIA1 DEF2 */
+
+.G10assi {
+    fill:#F2F2F2;
+}
+
+.G10linee{
+        opacity:0.1;fill:none;stroke:#F1F1F1;stroke-miterlimit:10;
+}
+
+.G10var1{
+        fill:#F1F1F1;
+        font-family:'Inconsolata';
+        font-size:14px;
+}
+
+.G10var2 {
+        fill:#F1F1F1;
+        font-family:'Inconsolata';
+        font-size:12px;
+}
+
+.G10gruppi {
+        fill:#F1F1F1;
+        font-family:'Inconsolata';
+        font-size:14px;
+        font-weight: bold;
+        cursor: pointer
+}
+
+.G10gruppi.on {
+    fill:#1a1a1a;
+    font-weight: normal;
+}
+
+.G10grouprect {
+        fill: #f2f2f2;
+        opacity: 0;
+}
+
+.G10grouprect.on{
+    fill:#f1f1f1;
+    opacity: 1;
+}
+
+.G10trend {
+    opacity:0;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+}
+
+.G10trend.on {opacity: 0.8}
+
+.G10religioso {
+        fill:#6EE0C7;
+}
+
+	.G10politico {
+        fill:#D83618;
+}
+
+	.G10etnico {
+        fill:#FDDFA2;
+}
+
+
+
+/* G11 MEDIA2 DEF */
+
+
+.G11religioso{fill:#69E2C8;}
+	.G11politico{fill:#DB3400;}
+	.G11etnico{fill:#FFE19F;}
+
+	.G11text{font-family:'Inconsolata';
+         fill:#F2F2F2;
+         font-size:12px;
+         }

@@ -1,0 +1,546 @@
+body {font-family: 'Lora', serif;
+font-family: 'Fira Sans', sans-serif;
+}
+
+
+.giallo{
+	background-color: #E5F229;
+  /*border-top: 5px solid #3B4259;*/
+} 
+
+.grigio{
+  background-color: #3B4259;
+  /*border-top: 1px solid #E5F229; (grigio)*/
+} 
+
+#bold {
+  font-family: 'Lora-Bold', serif;
+}
+
+
+/*HEADER*/
+
+.keepHeader{
+  padding: 0px;
+  background-image: url(../img/header2.jpg);
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#keeptrackHeader{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.8s ease-out;
+  position: relative;
+  
+}
+
+#keeptrackHeader h1{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	color: white;
+	letter-spacing: 14px;
+	text-align: center;
+   position: relative;
+	z-index: 3;
+	} 
+
+	h2{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+   position: relative;
+  z-index: 2;
+
+  }
+
+#keeptrackHeader::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  background-image: url('https://media.giphy.com/media/l0HlBaC5Kp9cXZDTa/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+#slider {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    opacity: 1 !important;
+    text-align: center;
+    padding-top: 190px;
+}
+
+#slider h2{
+font-family: 'Lora', serif;
+font-size: 24px;
+color: #FFFFFF;
+line-height: 32px;
+letter-spacing: 0.1px;
+
+}
+
+
+#logo{
+    background-image: url(../img/logo.png);
+    height: 181px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#intro{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#intro p{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  color: #3B4259;
+  line-height: 28px;
+  width: 650px;
+  position: relative;
+  left: 30px;
+
+}
+
+/* Links */
+
+#intro a{
+text-decoration: none;
+color: #FFFFFF;
+border-bottom: none;
+font-style: italic;
+padding-bottom: 2px;
+
+  background: none;
+}
+
+
+
+#intro a:hover,
+#intro a:active,
+#intro a:focus
+{
+text-decoration: none;
+padding-bottom: 1px;
+border-bottom: 1px solid #FFFFFF;
+outline: none;
+
+}
+
+/*SOURCES*/
+
+.sources {
+ font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size:10px;
+  padding-top:10px;
+  padding-bottom:30px;
+}
+
+
+
+
+
+/*NAVIGATION*/
+
+  .affix {
+      top: 0px;
+      width: 100%;
+  }
+
+  .affix ~ #section1 {
+      padding-top: 160px;
+  }
+
+ 
+.navbar{
+
+    border-radius: 0px;
+    border-left: 0px;
+    border-right:0px;
+    background-color: #FFFFFF;
+    border-top: 0px solid #F6F6F6;
+    border-bottom: 0px solid #F6F6F6;
+    z-index: 6;
+}
+
+ul.nav a{
+
+font-family: 'Fira Sans', sans-serif;
+font-size: 12px;
+color: #3B4259 !important;
+line-height: 25px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: background-color 1s ease;
+
+}
+
+
+ul.nav a:hover,
+ul.nav a:active,
+ul.nav a:focus {
+  background-color: #E5F229 !important; }
+
+
+.navbar-nav>.active>a{
+   background-color: #E5F229 !important;
+}
+
+/*SECTIONS*/
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+
+
+#generalstat {
+  padding-top:80px;
+  padding-bottom: 20px;
+}
+
+.description{
+
+  }
+
+.description h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #12DEB5;
+    line-height: 35px;
+    margin-top: 0;
+    padding-right: 50px;
+    letter-spacing: 4px;
+  }
+
+.description h4,
+#section8 h4{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #3B4259;
+    letter-spacing: 3px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer h4 {
+  font-family: 'Fira Sans', sans-serif;
+ color: #E5F229;
+ font-size: 16px;
+}
+
+#footer li {
+  position: relative;
+  right: 38px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #FFFFFF;
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 2;
+}
+
+
+@media (max-width: 480px) {
+    .container {
+      padding:0px;
+      margin:50px;
+    }
+
+    body {
+      padding:0px;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}
+
+
+.bumpContainer h4{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #3B4259;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.description a{
+  text-decoration: none;
+color: #3B4259;
+border-bottom: none;
+font-style: italic;
+padding-bottom: 2px;
+
+  background: none;
+}
+
+
+
+.description a:hover,
+.description a:active,
+.description a:focus
+{
+text-decoration: none;
+padding-bottom: 2px;
+border-bottom: 2px solid #3B4259;
+outline: none;
+
+}
+
+
+.description p{
+font-family: 'Lora', serif;
+font-size: 17px;
+color: #3B4259;
+line-height: 29px;
+}
+
+.invertito p {
+  color: #FFFFFF;
+}
+.invertito h1{
+color:#E5F229;
+}
+
+.invertito h4{
+  color: #FFFFFF
+}
+
+.invertito a{ 
+  color: #FFFFFF
+  
+}
+
+.invertito a:hover,
+.invertito a:active,
+.invertito a:focus
+{
+text-decoration: none;
+padding-bottom: 2px;
+border-bottom: 2px solid #FFFFFF;
+outline: none;
+
+}
+/*grafico 1
+img
+{
+  padding-top: 25px;
+  padding-bottom: 65px;
+}*/
+/*grafico prevalence*/
+svg {
+  margin-top: 50px;
+}
+
+#amphetamine_1_:hover g path {
+  stroke: #12DEB5;
+  stroke-opacity:1;
+}
+
+#cannabis_1_:hover g path{
+  stroke: #7CE86F;
+  stroke-opacity:1;
+  
+}
+
+#cocaine_1_:hover g path{
+  stroke: #E5F229;
+  stroke-opacity:1;
+}
+
+#ecstasy_1_:hover g path{
+  stroke: #FF6600;
+  stroke-opacity:1;
+}
+
+#LSD_1_:hover g path{
+  stroke: #E32D76;
+  stroke-opacity:1;
+}
+
+#use {
+  transition: opacity 0.4s ease;
+}
+/*TABS*/
+.tabs {
+  /**
+   * Setting display to flex makes this container lay
+   * out its children using flexbox, the exact same
+   * as in the above "Stepper input" example.
+   */
+  display: flex;
+
+  border-bottom: 1px solid #D7DBDD;
+}
+
+  .tab {
+    cursor: pointer;
+    padding: 5px 30px;
+    color: #16A2D7;
+    font-size: 12px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .tab.is-tab-selected {
+    border-bottom-color: #4EBBE4;
+  }
+
+  .button {
+    background-color: #12DE97; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bumpHCt {
+  transition: opacity 0.4s ease;
+}
+
+
+
+/*bottons
+.bottoni {
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+    color: #E32D76;
+  background-color: #FFFFFF
+}
+
+#btn-action {
+  color: white;
+  background-color: ##E32D76;
+}
+
+#cannabisherb {
+  color: #E32D76;
+  background-color: #FFFFFF;
+}
+
+#cannabisresin {
+  color: #E32D76;
+  background-color: #FFFFFF;
+}
+ 
+#cannabisherbgraph {
+  width: 856px;
+  height: 575px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  float: left;
+}
+#cannabisresingraph {
+  width: 856px;
+  height: 575px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  display: none;
+  float: left;
+}
+
+}
+.active {
+  opacity: 1;
+}
+.nonActive {
+  opacity: 0.6;
+} */
+
+img.worldMap{
+  display: none;
+}
+
+img.bump{
+  display: none;
+}
+
+#bottoni button {
+  position: relative;
+  left: 183px;
+  top: 40px;
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #12DEB5;
+  border: none;
+  background-color: #FFFFFF; 
+  margin-right: 11px; 
+}
+
+#bottoni button:hover,
+#bottoni button:active,
+#bottoni button:focus
+{ 
+ color: #E32D76;
+ outline: none;
+}
+
+
+
+#bottonitraffic button {
+  position: relative;
+  right: 5px;
+  top: 20px;
+  padding-bottom: 30px;
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #12DEB5;
+  border: none;
+  background-color: #FFFFFF; 
+  margin-right: 11px; 
+}
+
+#bottonitraffic button:hover,
+#bottonitraffic button:active,
+#bottonitraffic button:focus
+{ 
+ color: #E32D76;
+ outline: none;
+}
+
+

@@ -1,0 +1,564 @@
+<style>
+
+/* link */
+
+a {color: #575756;}
+
+a:link, a:visited {
+    color: #575756;
+    background-color: transparent;
+}
+a:hover, a:active {
+    color: #575756;
+}
+
+
+/* navbar */
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    background-color:  #2D2D2C;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    background-color: #2D2D2C;
+    border: 0;
+    font-size: 10px;
+    height: 40px;
+    margin-right: 25px;
+    width: 100%;
+    padding-right: 20px;
+    letter-spacing: 1px;
+  }
+
+/* colore testo */
+.navbar li a, .navbar .navbar-brand {
+    color: #FBF8EF !important;
+  }
+
+/* colore testo  e sfondo passando sopra */
+.navbar-nav li a:hover {
+    color: #FCC64F !important;
+  }
+
+.navbar-default .navbar-nav .active a:hover {
+    background-color: #2D2D2C;
+}
+
+/* colore testo e sfondo selezionato */
+.navbar-nav li.active a {
+    color: #FCC64F !important;
+  }
+
+.navbar-default .navbar-nav .active a {
+    background-color: #2D2D2C;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:  #2D2D2C;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+/*colore linee e bordo menù tendina */
+.navbar-default .navbar-toggle {
+    border-color: #2D2D2C;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FCC64F;
+}
+
+/* elementi generali */
+
+.container {
+    width: auto;
+    height: auto;
+}
+
+.bg-1 {
+    background-color: #2D2D2C;
+}
+
+.bg-2 {
+    background-color: #FCC64F;
+}
+
+.bg-3 {
+    background-color: #FBF8EF;
+}
+
+h1 {
+    font-family: Lora;
+    font-size: 68px;
+    color: #FCC64F;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 300px;
+}
+
+h2 {
+    font-family: Lora;
+    font-size: 42px;
+    color: #FCC64F;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: Lora;
+    font-size: 42px;
+    color: #2D2D2C;
+    text-align: left;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #FCC64F;
+    text-align: left;
+    margin-top: auto;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+.title2 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #2D2D2C;
+    text-align: left;
+    margin-top: auto;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+.sottotitolo {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #FBF8EF;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 0px;
+}
+
+p {
+    font-family: Lora;
+    font-size: 13px;
+    color: #FBF8EF;
+    padding: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.text {
+    font-family: Lora;
+    font-size: 13px;
+    color: #2D2D2C;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+}
+
+.dueColonne {-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; 
+    -webkit-column-gap: 1.5em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 1.5em; /* Firefox */
+    column-gap: 1.5em;
+    margin-bottom: 4em;
+}
+
+.fonti {
+    font-family: Lora;
+    font-size: 10px;
+    color: #2D2D2C;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+.fonti-2 {
+    font-family: Lora;
+    font-size: 10px;
+    color: #FBF8EF;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+.didascalia {
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #2D2D2C;
+    text-align: left;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.didascalia2 {
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #FBF8EF;
+    text-align: left;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* grafici */
+
+.ff {
+    width: 768px;
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 40px;
+}
+
+.scroll {
+    width: 250px;
+    padding: 10px;
+}
+
+.container-outer {
+    overflow: scroll;
+    position: relative;
+    width: auto;
+}
+
+.flussi-andata {
+    height: 380px;
+    width: auto;
+}
+
+.grafico-ffpaese {
+    height: auto;
+    position: relative;
+    align-items: center;
+    width: 70%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 50px;
+}
+
+.grafico-gini {
+    width: 80%;
+    height: auto;
+}
+
+.grafico-laico {
+    width: 55%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.grafico-religione {
+    height: auto;
+    position: relative;
+    align-items: center;
+    width: 75%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.grafico-mappa {
+    height: auto;
+    position: relative;
+    align-items: center;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 30px;
+}
+
+/* didascalie */
+
+.didascalia-ff {
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 350px;
+}
+
+/* bottoni */
+.btn {
+    font-family: Roboto;
+    font-size: 12px;
+    transition: .2s;
+  }
+
+.btn-default {
+    background-color: transparent;
+    border-color: transparent;
+    color: #2D2D2C;
+    letter-spacing: 1px;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default:active, 
+.open > .dropdown-toggle.btn-default {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #FCC64F;
+    text-decoration: underline;
+}
+
+.btn:hover, .btn:focus {
+    background-color: transparent;
+    color: #FCC64F;
+    text-decoration: underline;
+    letter-spacing: 1px;
+  }
+
+/* svg */
+
+#SFONDO {
+    opacity: 1;
+}
+
+svg > g {
+	opacity:0;
+	display: block;
+	transition: all, 0.2s;
+}
+
+svg > g:hover {
+	opacity: 1
+}
+
+/* footer */
+
+.glyphicon {
+    padding-top: 20px;
+}
+
+.footer {
+    font-family: Roboto;
+    font-size: 10px; 
+    color: #2D2D2C;
+    padding: 10px;
+    background-color: #2D2D2C;
+  }
+
+footer a {
+    align-items: center;
+    color: #2D2D2C;
+    padding-top: 20px;
+}
+
+footer a:hover {color: #FCC64F;}
+
+.text-footer {
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #2D2D2C;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+/* logo */
+.dd {
+    width:100px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.poli {
+    width:150px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+
+.dd {
+    width:75px;
+    height:auto;
+    }
+    
+.poli {
+    width:125px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+}    
+    
+h1 {
+    font-size: 40px;
+    }
+    
+.ff {
+    width: 90%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    }   
+    
+.grafico-laico {
+    width: 90%;
+    height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+    
+.grafico-religione {
+    width: 95%;
+    height: auto;
+    padding-bottom: 20px;
+    }
+    
+.grafico-mappa {
+    height: auto;
+    position: relative;
+    align-items: center;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 30px;
+}
+    
+.didascalia-ff {
+    padding-bottom: 50px;
+    padding-right: 0px;
+    width: 290px;
+}
+}
+
+@media (max-width: 414px) {
+    .didascalia-ff {
+    padding-bottom: 50px;
+    padding-left: 65px;
+    padding-right: 0px;
+    width: 300px;
+}
+    
+    h2 {
+    font-family: Lora;
+    font-size: 35px;
+    color: #FCC64F;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: Lora;
+    font-size: 35px;
+    color: #2D2D2C;
+    text-align: left;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+}
+
+@media (max-width: 375px) {
+    h2 {
+    font-family: Lora;
+    font-size: 30px;
+    color: #FCC64F;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: Lora;
+    font-size: 30px;
+    color: #2D2D2C;
+    text-align: left;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+    .didascalia-ff {
+    padding-bottom: 50px;
+    padding-right: 0px;
+    width: 280px;
+}
+}
+
+@media (max-width: 320px) {
+    h2 {
+    font-family: Lora;
+    font-size: 25px;
+    color: #FCC64F;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: Lora;
+    font-size: 25px;
+    color: #2D2D2C;
+    text-align: left;
+    margin-top: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+}
+
+
+</style>

@@ -490,6 +490,9 @@ a:focus {
     .introduction {
         margin-top: 50px;
     }
+	.item-title {
+		height: 64px;
+	}
     .footer {
         padding-bottom: 40px;
     }

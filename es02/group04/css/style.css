@@ -24,8 +24,8 @@ h6 {
 /* ROADMAP */
 
 
-	
-	
+
+
 	.VIZ0-0{fill:none;stroke:#506F8A;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
 	.VIZ0-1{fill:none;stroke:#506F8A;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.8571,3.8571;}
 	.VIZ0-2{fill:none;stroke:#506F8A;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9701,3.9701;}
@@ -165,13 +165,13 @@ h6 {
 
 /* VIZ3 Google Trend --- GIACOMO */
 
-   
+
 	.VIZ3-0{fill:none;}
 	.VIZ3-1{opacity:0.5;fill:#1D1D1B;}
 	.VIZ3-2{fill:#333333;}
-	.VIZ3-3{font-family:'Karla-Bold';}
+	.VIZ3-3{font-family:'Karla'; font-weight: 700;}
 	.VIZ3-4{font-size:13px;}
-	.VIZ3-5{font-family:'Karla-Regular';}
+	.VIZ3-5{font-family:'Karla'; font-weight: 400;}
 	.VIZ3-6{fill:none;stroke:#333333;stroke-miterlimit:10;}
 	.VIZ3-7{fill:none;stroke:#BFBEB7;stroke-miterlimit:10;}
 	.VIZ3-8{fill:#FFFFFF;stroke:#333333;stroke-miterlimit:10;}
@@ -331,10 +331,10 @@ h6 {
     .upVIZ5-v5{font-family:'Karla';
                font-weight: bold}
 	.upVIZ5-v6{fill:#808080;}
-	
+
 /* VIZ5 Timeline down */
 
-	
+
 	.dwVIZ5-v0{fill:#FDE5B0;}
 	.dwVIZ5-v1{fill:#FFFFFF;}
 	.dwVIZ5-v2{font-family:'Karla';
@@ -390,7 +390,7 @@ h6 {
 	.VIZ5et-v16{fill:#333333;}
 	.VIZ5et-v17{font-size:16px;}
 	.VIZ5et-v18{fill:none;stroke:#BFBEB7;stroke-width:2;stroke-miterlimit:10;}
-    
+
     /* VIZ5 Timeline Haines */
     .VIZ5ha-v0{font-family:'Karla'; font-weight: 400;}
 	.VIZ5ha-v1{font-size:15px;}
@@ -410,7 +410,7 @@ h6 {
 	.VIZ5ha-v14{fill:#333333;}
 	.VIZ5ha-v15{font-size:16px;}
 	.VIZ5ha-v16{fill:none;stroke:#BFBEB7;stroke-width:2;stroke-miterlimit:10;}
-	
+
     /* VIZ5 Timeline Pilot */
     .VIZ5pi-v0{font-family:'Karla';}
 	.VIZ5pi-v1{font-size:15px;}
@@ -433,16 +433,15 @@ h6 {
 	.VIZ5pi-v17{font-size:16px;}
 	.VIZ5pi-v18{fill:none;stroke:#BFBEB7;stroke-width:2;stroke-miterlimit:10;}
 
-.btnVIZ5 {   
+.btnVIZ5 {
     background-color: white !important;
     padding-bottom: 0px !important;
-    border: 0px !important;    
+    border: 0px !important;
 }
 
 .btnVIZ5:focus, .btnVIZ5:active, .btnVIZ5:focus:active {
   background-image: none !important;
   outline: none !important;
-  -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 
@@ -456,6 +455,7 @@ h6 {
 
 .VIZ5-gruppo.off{
     opacity: 0.3;
+    -webkit-transition: opacity 0.2s ease;
     transition: opacity 0.2s ease;
 }
 
@@ -465,6 +465,7 @@ h6 {
 
 .rect5-off {
     display: none;
+    -webkit-transition: opacity 0.1s ease;
     transition: opacity 0.1s ease;
 }
 .rect5-on {
@@ -473,10 +474,11 @@ h6 {
 
 .warning.off {
     display: none;
-    
+
 }
 .warning {
-   transition: display 0.5s ease; 
+   -webkit-transition: display 0.5s ease;
+   transition: display 0.5s ease;
 }
 
 .yes,.no {
@@ -485,7 +487,7 @@ h6 {
 
 
 
- 
+
 
 /* VIZ5 Timeline up */
 
@@ -498,10 +500,10 @@ h6 {
     .upVIZ5-v5{font-family:'Karla';
                font-weight: bold}
 	.upVIZ5-v6{fill:#808080;}
-	
+
 /* VIZ5 Timeline down */
 
-	
+
 	.dwVIZ5-v0{fill:#FDE5B0;}
 	.dwVIZ5-v1{fill:#FFFFFF;}
 	.dwVIZ5-v2{font-family:'Karla';
@@ -557,7 +559,7 @@ h6 {
 	.VIZ5et-v16{fill:#333333;}
 	.VIZ5et-v17{font-size:16px;}
 	.VIZ5et-v18{fill:none;stroke:#BFBEB7;stroke-width:2;stroke-miterlimit:10;}
-    
+
     /* VIZ5 Timeline Haines */
     .VIZ5ha-v0{font-family:'Karla'; font-weight: 400;}
 	.VIZ5ha-v1{font-size:15px;}
@@ -576,7 +578,7 @@ h6 {
 	.VIZ5ha-v14{fill:#333333;}
 	.VIZ5ha-v15{font-size:16px;}
 	.VIZ5ha-v16{fill:none;stroke:#BFBEB7;stroke-width:2;stroke-miterlimit:10;}
-	
+
     /* VIZ5 Timeline Pilot */
     .VIZ5pi-v0{font-family:'Karla';}
 	.VIZ5pi-v1{font-size:15px;}
@@ -599,16 +601,15 @@ h6 {
 	.VIZ5pi-v17{font-size:16px;}
 	.VIZ5pi-v18{fill:none;stroke:#BFBEB7;stroke-width:2;stroke-miterlimit:10;}
 
-.btnVIZ5 {   
+.btnVIZ5 {
     background-color: white !important;
     padding-bottom: 0px !important;
-    border: 0px !important;    
+    border: 0px !important;
 }
 
 .btnVIZ5:focus, .btnVIZ5:active, .btnVIZ5:focus:active {
   background-image: none !important;
   outline: none !important;
-  -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 
@@ -622,6 +623,7 @@ h6 {
 
 .VIZ5-gruppo.off{
     opacity: 0.3;
+    -webkit-transition: opacity 0.2s ease;
     transition: opacity 0.2s ease;
 }
 
@@ -631,6 +633,7 @@ h6 {
 
 .rect5-off {
     display: none;
+    -webkit-transition: opacity 0.1s ease;
     transition: opacity 0.1s ease;
 }
 .rect5-on {
@@ -639,10 +642,11 @@ h6 {
 
 .warning.off {
     opacity: 0;
-    
+
 }
 .warning {
-   transition: opacity 0.5s ease; 
+   -webkit-transition: opacity 0.5s ease;
+   transition: opacity 0.5s ease;
 }
 
 .yes,.no {
@@ -668,8 +672,8 @@ h6 {
 	.VIZ6-12{fill:none;stroke:#E06848;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:10;}
 
 
-	
-	
+
+
 	.Q6-0{fill:#A3A29C;}
 	.Q6-1{font-family:'Karla'; font-weight: 400;}
 	.Q6-2{font-size:14px;}
@@ -687,7 +691,7 @@ h6 {
 
 /* VIZ7 Word Polarization */
 
-  
+
 	.VIZ7-v0{fill:#333333;}
 	.VIZ7-v1{font-family:'Karla';
          font-weight:bold}
@@ -767,7 +771,7 @@ h6 {
 
 /* VIZ 8  -- Giacomo */
 
-	
+
 	.VIZ8-0{fill:none;stroke:#1A1A1A;stroke-miterlimit:10;}
 	.VIZ8-1{fill:none;stroke:#373E40;stroke-width:0.25;stroke-miterlimit:10;}
 	.VIZ8-2{fill:#333333;}
@@ -867,7 +871,7 @@ h6 {
 
 
 
-	
+
 
 /* Protcollo 1 */
 
@@ -909,7 +913,7 @@ h6 {
 
 /* Protcollo 3 */
 
-    
+
 	.p3-v0{fill:#506F8A;}
 	.p3-v1{fill:#E06848;}
 	.p3-v2{font-family:'Karla'; font-weight: 700;}
@@ -1003,7 +1007,7 @@ h6 {
 
 /* Protcollo 6 */
 
-    
+
 	.p6-v0{fill:#506F8A;}
 	.p6-v1{font-family:'Karla'; font-weight: 700;}
 	.p6-v2{font-size:14px;}

@@ -1,5 +1,3 @@
-<style>
-
 /* link */
 
 a {color: #575756;}
@@ -12,7 +10,6 @@ a:hover, a:active {
     color: #575756;
 }
 
-
 /* navbar */
 
 .navbar .navbar-nav {
@@ -20,7 +17,6 @@ a:hover, a:active {
   float: none;
   vertical-align: top;
 }
-
 .navbar .navbar-collapse {
     text-align: center;
     background-color:  #2D2D2C;
@@ -32,23 +28,20 @@ a:hover, a:active {
       float: none;
       vertical-align: top;
     }
-
 }
 
 .nav > li {
     position: relative;
     display: block;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
 .navbar {
     font-family: Roboto, sans-serif;
     font-style: normal;
     background-color: #2D2D2C;
     border: 0;
-    font-size: 10px;
-    height: 40px;
+    font-size: 11px;
     margin-right: 25px;
     width: 100%;
     padding-right: 20px;
@@ -60,7 +53,7 @@ a:hover, a:active {
     color: #FBF8EF !important;
   }
 
-/* colore testo  e sfondo passando sopra */
+/* colore testo e sfondo passando sopra */
 .navbar-nav li a:hover {
     color: #FCC64F !important;
   }
@@ -116,18 +109,18 @@ a:hover, a:active {
 
 h1 {
     font-family: Lora;
-    font-size: 68px;
+    font-size: 80px;
     color: #FCC64F;
     text-align: center;
     margin-top: auto;
-    padding-top: 300px;
+    padding-top: 270px;
 }
 
 h2 {
-    font-family: Lora;
+    font-family: Roboto;
     font-size: 42px;
     color: #FCC64F;
-    text-align: center;
+    text-align: left;
     margin-top: auto;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -135,13 +128,13 @@ h2 {
 }
 
 h3 {
-    font-family: Lora;
+    font-family: Roboto;
     font-size: 42px;
     color: #2D2D2C;
     text-align: left;
     margin-top: auto;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     letter-spacing: 2px;
 }
 
@@ -167,7 +160,7 @@ h3 {
 
 .sottotitolo {
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 24px;
     color: #FBF8EF;
     text-align: center;
     letter-spacing: 3px;
@@ -176,7 +169,7 @@ h3 {
 
 p {
     font-family: Lora;
-    font-size: 13px;
+    font-size: 14px;
     color: #FBF8EF;
     padding: 10px;
     padding-bottom: 30px;
@@ -185,7 +178,7 @@ p {
 
 .text {
     font-family: Lora;
-    font-size: 13px;
+    font-size: 14px;
     color: #2D2D2C;
     text-align: left;
     padding: 10px;
@@ -193,6 +186,12 @@ p {
     letter-spacing: 0.5px;
     margin-bottom: 0px;
 }
+
+/*colonne testo*/
+
+.unaColonna{
+        -webkit-column-count:1;
+    }
 
 .dueColonne {-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
@@ -204,41 +203,44 @@ p {
 }
 
 .fonti {
-    font-family: Lora;
-    font-size: 10px;
+    font-family: Roboto;
+    font-size: 12px;
     color: #2D2D2C;
-    text-align: left;
+    text-align: right;
     padding-top: 20px;
     padding-bottom: 40px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+a.fonti-link {
+    color: #2D2D2C;
+    border-bottom: 1px solid #2D2D2C;
+    text-decoration: none;
+}
+
+a.fonti-link2 {
+    color: #FBF8EF;
+    border-bottom: 1px solid #FBF8EF;
+    text-decoration: none;
 }
 
 .fonti-2 {
-    font-family: Lora;
-    font-size: 10px;
+    font-family: Roboto;
+    font-size: 12px;
     color: #FBF8EF;
-    text-align: left;
+    text-align: right;
     padding: 10px;
     padding-bottom: 40px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
 }
 
 .didascalia {
     font-family: Roboto;
     letter-spacing: 0.5px;
-    font-size: 12px;
-    color: #2D2D2C;
-    text-align: left;
-    padding: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.didascalia2 {
-    font-family: Roboto;
-    letter-spacing: 0.5px;
-    font-size: 12px;
-    color: #FBF8EF;
+    font-size: 13px;
+    color: #575756;
     text-align: left;
     padding: 10px;
     padding-top: 30px;
@@ -271,43 +273,32 @@ p {
 }
 
 .grafico-ffpaese {
-    height: auto;
-    position: relative;
-    align-items: center;
-    width: 70%;
+    width: 85%;
+    height: 700px;
     overflow-x: scroll;
     overflow-y: hidden;
-    padding-bottom: 50px;
 }
 
 .grafico-gini {
-    width: 80%;
-    height: auto;
+    width: 85%;
 }
 
 .grafico-laico {
     width: 55%;
-    height: auto;
-    padding-bottom: 40px;
 }
 
 .grafico-religione {
-    height: auto;
-    position: relative;
-    align-items: center;
-    width: 75%;
+    width: 85%;
+    height: 720px;
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
 .grafico-mappa {
-    height: auto;
-    position: relative;
-    align-items: center;
-    width: 80%;
+    width: 90%;
+    height: 720px;
     overflow-x: scroll;
     overflow-y: hidden;
-    padding-bottom: 30px;
 }
 
 /* didascalie */
@@ -316,7 +307,14 @@ p {
     padding-bottom: 50px;
     padding-left: 0px;
     padding-right: 0px;
-    width: 350px;
+    width: 400px;
+}
+
+.didascalia-ff2 {
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 400px;
 }
 
 /* bottoni */
@@ -378,16 +376,14 @@ svg > g:hover {
 
 .footer {
     font-family: Roboto;
-    font-size: 10px; 
+    font-size: 12px; 
     color: #2D2D2C;
-    padding: 10px;
-    background-color: #2D2D2C;
+    padding-bottom: 20px;
   }
 
 footer a {
-    align-items: center;
+    align-items: left;
     color: #2D2D2C;
-    padding-top: 20px;
 }
 
 footer a:hover {color: #FCC64F;}
@@ -397,97 +393,101 @@ footer a:hover {color: #FCC64F;}
     letter-spacing: 0.5px;
     font-size: 12px;
     color: #2D2D2C;
-    text-align: left;
-    padding-bottom: 30px;
+    padding: 0px;
+    margin: 0px;
 }
-
 
 /* logo */
 .dd {
-    width:100px;
+    width:90px;
     height: auto;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 40px;
 }
 
 .poli {
-    width:150px;
+    width:120px;
     height: auto;
-    padding-left: 30px;
     padding-top: 30px;
 }
 
-
+@media (max-width:1024px){
+    .ff {
+        height: 7758px;;
+    }
+    .grafico-ffpaese {
+        height: 100%;
+    }
+    .grafico-religione {
+        height: 100%;
+    }
+    .grafico-mappa {
+        height: 100%;
+    }
+}
 
 @media (max-width: 768px) {
 
 .dd {
     width:75px;
     height:auto;
+    margin-bottom: 15px;
     }
     
 .poli {
-    width:125px;
+    width:95px;
     height: auto;
-    padding-left: 30px;
     padding-top: 30px;
+    margin-bottom: 15px;
 }    
-    
+.ff {
+    height: 6858px;
+    width: 90%;
+    }    
 h1 {
     font-size: 40px;
+    padding-top: 200px;
     }
-    
-.ff {
-    width: 90%;
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    }   
     
 .grafico-laico {
-    width: 90%;
-    height: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 40px;
-}
-    
-.grafico-religione {
     width: 95%;
     height: auto;
-    padding-bottom: 20px;
-    }
-    
-.grafico-mappa {
-    height: auto;
-    position: relative;
-    align-items: center;
-    width: 90%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
-    
+
 .didascalia-ff {
     padding-bottom: 50px;
     padding-right: 0px;
     width: 290px;
 }
+.didascalia-ff2 {
+    padding-bottom: 50px;
+    padding-right: 0px;
+    width: 290px;
+    }
 }
 
 @media (max-width: 414px) {
-    .didascalia-ff {
+.didascalia-ff {
     padding-bottom: 50px;
-    padding-left: 65px;
     padding-right: 0px;
     width: 300px;
 }
-    
-    h2 {
-    font-family: Lora;
+.didascalia-ff2 {
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 0px;
+    width: 300px;
+    }
+.ff {
+    height: 3758px;
+    width: 90%;
+    }     
+h2 {
+    font-family: Roboto;
     font-size: 35px;
     color: #FCC64F;
-    text-align: center;
+    text-align: left;
     margin-top: auto;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -495,7 +495,7 @@ h1 {
 }
 
 h3 {
-    font-family: Lora;
+    font-family: Roboto;
     font-size: 35px;
     color: #2D2D2C;
     text-align: left;
@@ -503,23 +503,39 @@ h3 {
     padding-top: 100px;
     padding-bottom: 50px;
     letter-spacing: 2px;
+}
+    
+.text-footer {
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #2D2D2C;
+    padding: 0px;
+    margin: 0px;
+}
+    
+.dueColonne{
+    -webkit-column-count:1;
 }
 }
 
 @media (max-width: 375px) {
-    h2 {
-    font-family: Lora;
+h2 {
+    font-family: Roboto;
     font-size: 30px;
     color: #FCC64F;
-    text-align: center;
+    text-align: left;
     margin-top: auto;
     padding-top: 100px;
     padding-bottom: 20px;
     letter-spacing: 2px;
 }
-
+.ff {
+    height: 2858px;
+    width: 90%;
+    }
 h3 {
-    font-family: Lora;
+    font-family: Roboto;
     font-size: 30px;
     color: #2D2D2C;
     text-align: left;
@@ -529,27 +545,32 @@ h3 {
     letter-spacing: 2px;
 }
 
-    .didascalia-ff {
+.didascalia-ff {
     padding-bottom: 50px;
     padding-right: 0px;
     width: 280px;
 }
+.didascalia-ff2 {
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 0px;
+    width: 280px;
+    }    
 }
 
 @media (max-width: 320px) {
-    h2 {
-    font-family: Lora;
+h2 {
+    font-family: Roboto;
     font-size: 25px;
     color: #FCC64F;
-    text-align: center;
+    text-align: left;
     margin-top: auto;
     padding-top: 100px;
     padding-bottom: 20px;
     letter-spacing: 2px;
 }
-
 h3 {
-    font-family: Lora;
+    font-family: Roboto;
     font-size: 25px;
     color: #2D2D2C;
     text-align: left;
@@ -558,7 +579,10 @@ h3 {
     padding-bottom: 50px;
     letter-spacing: 2px;
 }
+.didascalia-ff2 {
+    padding-bottom: 50px;
+    padding-left: 28px;
+    padding-right: 0px;
+    width: 300px;
+    }    
 }
-
-
-</style>

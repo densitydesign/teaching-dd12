@@ -1,15 +1,19 @@
 /* Road map */
 
+$(".roadmap-link").click(function(){
+    window.location = this.attributes[2].nodeValue;
+})
+
 $(".rm-vuoto").hover(function(){
     $(this).toggleClass("nodisplay");
-    
+
 });
 
 
 /* VIZ2 */
 $(".VIZ2-btn").click(function(){
     $(this).prev().toggleClass( "VIZ2-off" );
-    $(this).next ().toggleClass( "VIZ2-off" );           
+    $(this).next ().toggleClass( "VIZ2-off" );
 });
 
 /* VIZ5 */
@@ -21,7 +25,7 @@ $( function() {
 
 $(".VIZ5-gruppo").hover(function(){
     $(".VIZ5-gruppo").toggleClass( "off" );
-    $(this).toggleClass( "off" );           
+    $(this).toggleClass( "off" );
 });
 
 $(".VIZ5-btn-yellow").click(function(){
@@ -32,7 +36,7 @@ $(".VIZ5-btn-yellow-active").click(function(){
     $(".VIZ5-btn-yellow").removeClass( "rect5-off" );
     $(".VIZ5-rect-ylw").removeClass( "rect5-off" );
 });
- 
+
 $(".VIZ5-btn-orange").click(function(){
     $(".VIZ5-rect-orange").addClass( "rect5-off" );
     $(this).addClass( "rect5-off" );
@@ -44,7 +48,7 @@ $(".VIZ5-btn-orange-active").click(function(){
 
 
 $(".VIZ5-btn-red").click(function(){
-    $(".warning").removeClass( "off" );         
+    $(".warning").removeClass( "off" );
 });
 $(".VIZ5-btn-red-active").click(function(){
     $(".VIZ5-btn-red").removeClass( "rect5-off" );
@@ -141,10 +145,10 @@ $("#resetVIZ4-2").click(function(){
 /* VIZ4.1 queries+video */
 $("#btn-uncensored").click(function(){
     $(".VIZ4-rect").addClass( "rect4-off" );
-    $(this).next().removeClass( "rect4-off" );    
+    $(this).next().removeClass( "rect4-off" );
 });
 $("#btn-uncensored").hover(function(){
-    $("#targa-uncensored").toggleClass( "targa-on" );    
+    $("#targa-uncensored").toggleClass( "targa-on" );
 });
 
 $("#btn-obscured").click(function(){
@@ -152,7 +156,7 @@ $("#btn-obscured").click(function(){
     $(this).next().removeClass( "rect4-off" );
 });
 $("#btn-obscured").hover(function(){
-    $("#targa-obscured").toggleClass( "targa-on" );    
+    $("#targa-obscured").toggleClass( "targa-on" );
 });
 
 $("#btn-cutted").click(function(){
@@ -160,7 +164,7 @@ $("#btn-cutted").click(function(){
     $(this).next().removeClass( "rect4-off" );
 });
 $("#btn-cutted").hover(function(){
-    $("#targa-cutted").toggleClass( "targa-on" );    
+    $("#targa-cutted").toggleClass( "targa-on" );
 });
 
 $("#btn-videoframe").click(function(){
@@ -168,7 +172,7 @@ $("#btn-videoframe").click(function(){
     $(this).next().removeClass( "rect4-off" );
 });
 $("#btn-videoframe").hover(function(){
-    $("#targa-videoframe").toggleClass( "targa-on" );    
+    $("#targa-videoframe").toggleClass( "targa-on" );
 });
 
 $("#btn-general").click(function(){
@@ -176,7 +180,7 @@ $("#btn-general").click(function(){
     $(this).next().removeClass( "rect4-off" );
 });
 $("#btn-general").hover(function(){
-    $("#targa-general").toggleClass( "targa-on" );    
+    $("#targa-general").toggleClass( "targa-on" );
 });
 
 $("#btn-other").click(function(){
@@ -184,7 +188,7 @@ $("#btn-other").click(function(){
     $(this).next().removeClass( "rect4-off" );
 });
 $("#btn-other").hover(function(){
-    $("#targa-other").toggleClass( "targa-on" );    
+    $("#targa-other").toggleClass( "targa-on" );
 });
 
 $("#btn-unavailable").click(function(){
@@ -192,7 +196,7 @@ $("#btn-unavailable").click(function(){
     $(this).next().removeClass( "rect4-off" );
 });
 $("#btn-unavailable").hover(function(){
-    $("#targa-unavailable").toggleClass( "targa-on" );    
+    $("#targa-unavailable").toggleClass( "targa-on" );
 });
 
 
@@ -422,5 +426,5 @@ $("#islamicRef").click(function(){
 
 $("#reset8").click(function(){
     $(".VIZ8-flusso").removeClass( "flusso-off" );
-   
+
 });

@@ -8,6 +8,49 @@
     background: #FF4A60;
 }
 
+#co2-graph {
+    width: auto;
+}
+
+#temp-graph {
+    width: auto;
+}
+
+#ice-graph {
+    width: auto;
+}
+
+.nasa-legend > p {
+    display: inline-block;
+    width: 200px;
+}
+
+.greenland:before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+    position: relative;
+    top: 2px;
+  margin-right: 5px;
+    background: black;
+}
+
+.antartica:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+    position: relative;
+    top: 2px;
+  margin-right: 5px;
+    background: white;
+}
+
+#sea-graph {
+    width: auto;
+}
+
 .rosa::selection {
     background: white; 
     color: #FF4A60;
@@ -64,7 +107,7 @@ body svg {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background: transparent;
+  background: #333;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
@@ -236,7 +279,7 @@ body img {
 .sottotitolo{
   padding-top: 4px;
   font-family: "Poppins";
-  font-size: 0.8em;
+  font-size: 1em;
   margin: auto;
   margin-top: 1.3em;
   letter-spacing: 0.2em;
@@ -245,14 +288,14 @@ body img {
 
 h2.graphtitle {
   font-family: "Butler";
-  font-size: 1.6em;
+  font-size: 1.8em;
   letter-spacing: 0.01em;
 }
 
 .testo {
   padding-top: 1.5em;
   font-family: "Crimson Text";
-  font-size: 1.15em;
+  font-size: 1.3em;
   margin: auto;
   margin-bottom:30px;
   vertical-align: text-top;
@@ -723,6 +766,12 @@ padding: 4% 0 4% 0;
 line-height: 1.7em;
 }
 
+footer a, a:hover, a:visited {
+    color: #d9d9d9;
+    text-decoration: underline;
+    text-decoration-skip: ink;
+}
+
 footer .logo {
   text-align: center;
 }
@@ -921,7 +970,7 @@ body.loading .modal {
 /* BREAKPOINTS */
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   body {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 
   .navbar-collapse{

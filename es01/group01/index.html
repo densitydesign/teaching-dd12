@@ -2,20 +2,20 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>The Point of No Return</title>
+    <title>The Point Of No Return - How the world is adapting to climate change</title>
     <meta property="og:title" content="The Point of No Return - How the world is adapting to climate change">
     <meta property="og:description" content="Climate change is approaching an irreversible state. The international community is acting to let countries all around the world adapt to the imminent climate challenge."/>
-    <meta property="og:image" content="http://labs.densitydesign.org/ddxii/es01/group01/og-image.jpg">
+    <meta property="og:image" content="meta-tags/og-image.jpg">
 
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="meta-tags/og-image.jpg">
     <meta name="twitter:site" content="@densitydesign">
     <meta name="twitter:title" content="The Point of No Return - How the world is adapting to climate change">
     <meta name="twitter:description" content="Climate change is approaching an irreversible state. The international community is acting to let countries all around the world adapt to the imminent climate challenge.">
-    <meta name="twitter:image" content="http://labs.densitydesign.org/ddxii/es01/group01/og-image.jpg">
+    <meta name="twitter:image" content="meta-tags/og-image.jpg">
 
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="img/favicon-01.png" type="img/png" />
+    <link rel="icon" href="assets/favicon-01.png" type="img/png" />
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Poppins" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -32,14 +32,15 @@
   </head>
 
   <body>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
   <div class="loader">
   <div class="dot"></div><div class="dot-a"></div></div>
     <section id="title" class="scuro">
-    <div id="video" data-vide-bg="mp4: img/video/point_little.mp4, mov: img/video/point_little.mov, poster: img/video/poster.png"></div>
+    <div id="video" data-vide-bg="mp4: assets/video/point_little.mp4, mov: assets/video/point_little.mov, poster: assets/video/poster.png"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-              <h1 class="po-title">The Point of No Return</h1>
+              <h1 class="po-title">The Point Of No Return</h1>
               <h2 class="po-subtitle">How the world is adapting to climate change</h2>
           </div>
         </div>
@@ -69,7 +70,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-            <div class="cit bar"><mark>Human influence</mark> on the climate system is clear and growing. If left unchecked, climate change will increase the likelihood of <mark>pervasive and irreversible impacts</mark> for people and ecosystems.</div>
+            <div class="cit bar"<mark>Human influence</mark> on the climate system is clear and growing. If left unchecked, climate change will increase the likelihood of <mark>pervasive and irreversible impacts</mark> for people and ecosystems.</div>
             <h2 class="sottotitolo fonte">Thomas Stocker, IPCC Working Group I co-president</h2>
           </div>
         </div>
@@ -79,66 +80,76 @@
       <div class="row">
           <div class="col-lg-3 col-sm-6 col-md-3 col-xs-6" data-scroll-reveal="enter bottom"><div class="index-title">Carbon<br>Dioxide</div>
             <span class="index"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> <span class="ind">404.42</span></span> <br>ppm<br>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#co2" aria-expanded="false" aria-controls="co2" data-parent="#accordion">
+            <button class="btn btn-primary hidden-xs" type="button" data-toggle="collapse" data-target="#co2" aria-expanded="false" aria-controls="co2" data-parent="#accordion">
             +</i>
             </button>
           </div>
           <div class="col-lg-3 col-sm-6 col-md-3 col-xs-6"><div class="index-title">Global<br>Temperature</div>
-            <span class="index"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> <span class="ind">0.87</span>°C</span> <br>since 1880<br>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-parent="#accordion" data-target="#temperature" aria-expanded="false" aria-controls="temperature">
+            <span class="index"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> <span class="ind">0.87</span>°C</span> <br>from 1880<br>
+            <button class="btn btn-primary hidden-xs" type="button" data-toggle="collapse" data-parent="#accordion" data-target="#temperature" aria-expanded="false" aria-controls="temperature">
             +
             </button>
           </div>
           <div class="col-lg-3 col-sm-6 col-md-3 col-xs-6"><div class="index-title">Arctic<br>Ice</div>
             <span class="index"><i class="fa fa-long-arrow-down" aria-hidden="true"></i> <span class="ind">13.3</span>%</span> <br>per decade<br>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-parent="#accordion" data-target="#iced-mass" aria-expanded="false" aria-controls="iced-mass">
+            <button class="btn btn-primary hidden-xs" type="button" data-toggle="collapse" data-parent="#accordion" data-target="#iced-mass" aria-expanded="false" aria-controls="iced-mass">
             +
             </button>
           </div>
           <div class="col-lg-3 col-sm-6 col-md-3 col-xs-6"><div class="index-title">Sea<br>Level</div>
             <span class="index"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> <span class="ind">3.4</span></span> <br>mm per year<br>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-parent="#accordion" data-target="#sea-level" aria-expanded="false" aria-controls="sea-level">
+            <button class="btn btn-primary hidden-xs" type="button" data-toggle="collapse" data-parent="#accordion" data-target="#sea-level" aria-expanded="false" aria-controls="sea-level">
             +
             </button>
           </div>
       </div>
-
+        
     </div>
     <div class="container-fluid">
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel-group hidden-xs" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div id="co2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body container">
-      <h2 class="graphtitle">CO<sub>2</sub> emissions from 1995 to 2015</h2>
-        <img src="img/co2-emissions-compressed.svg"><br><br>
-        <p class="datasource dswhite">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
+      <div class="panel-body container-fluid">
+      <h2 class="graphtitle">CO<sub>2</sub> emissions from 1958 to 2017 (PPM)</h2>
+<!--        <img src="assets/co2-emissions-compressed.svg"><br><br>-->
+          <!-- D3 EXPERIMENT -->
+          <svg id="co2-graph" width="990" height="500"></svg>
+          <script src="js/co2d3.js"></script>
+          <!-- -->
+        <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
       </div>
     </div>
   </div>
   <div class="panel panel-default">
     <div id="temperature" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body container">
-      <h2 class="graphtitle">Annual mean temperature variation from 1995 to 2015</h2>
-        <img src="img/temperature-compressed.svg"><br><br>
-        <p class="datasource dswhite">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
+      <div class="panel-body container-fluid">
+      <h2 class="graphtitle">Annual mean temperature variation from 1880 to 2017 (°C)</h2>
+<!--        <img src="assets/temperature-compressed.svg"><br><br>-->
+          <svg id="temp-graph" width="990" height="500"></svg>
+          <script src="js/tempd3.js"></script>
+        <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
       </div>
     </div>
   </div>
   <div class="panel panel-default">
     <div id="iced-mass" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body container">
-      <h2 class="graphtitle">Iced mass variation from 2002 to 2015</h2>
-        <img src="img/iced-mass-compressed.svg"><br><br>
-        <p class="datasource dswhite">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
+      <div class="panel-body container-fluid">
+      <h2 class="graphtitle">Land ice mass variation from 2002 to 2017 (Gigaton)</h2>
+          <div class="nasa-legend"><p class="antartica">Antarctica</p><p class="greenland">Greenland</p></div>
+          <svg id="ice-graph" width="990" height="500"></svg>
+          <script src="js/icecompd3.js"></script>
+<!--        <img src="assets/iced-mass-compressed.svg"><br><br>-->
+        <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
       </div>
     </div>
   </div>
   <div class="panel panel-default">
     <div id="sea-level" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body container">
-      <h2 class="graphtitle">Mean sea level from 1995 to 2015</h2>
-        <img src="img/mean-sea-compressed.svg"><br><br>
-        <p class="datasource dswhite">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
+      <div class="panel-body container-fluid">
+      <h2 class="graphtitle">Mean sea level from 1993 to 2017 (mm)</h2>
+        <svg id="sea-graph" width="990" height="500"></svg>
+          <script src="js/sead3.js"></script>
+        <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
       </div>
     </div>
   </div>
@@ -160,15 +171,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-          <h2 class="graphtitle-one">One step after the other: what happened</h2>
+           <h2 class="graphtitle-one">One step after the other: what happened</h2>
         </div>
       </div>
     </div>
 
    <div id="timeline">
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1280.25 316.5115051" style="enable-background:new 0 0 1280.25 316.5115051;" xml:space="preserve">
 <style type="text/css">
@@ -208,7 +216,7 @@
     </g>
   </g>
   <g>
-
+    
       <rect x="35.0608025" y="22.5122147" transform="matrix(0.7071068 -0.7071068 0.7071068 0.7071068 -8.0060129 37.0746078)" class="st2" width="11.3784037" height="11.3784037"/>
     <text transform="matrix(1 0 0 1 58.7955933 31.2389526)" class="st3 st4 st5">FOUNDATIONS</text>
   </g>
@@ -219,7 +227,7 @@
   </g>
   <g>
     <text transform="matrix(1 0 0 1 192.7180176 31.2390137)" class="st3 st4 st5">SUMMITS</text>
-
+    
       <rect x="168.9830475" y="22.5122147" transform="matrix(0.7071068 -0.7071068 0.7071068 0.7071068 31.2189083 131.7719421)" class="st7" width="11.3784037" height="11.3784037"/>
   </g>
   <g>
@@ -594,13 +602,13 @@
           <em>2013, November</em>
           <h2 class="sottotitolo">Cop 19 - CMP 9</h2><hr>
           Warsaw, Poland<br>
-          Delegates are to focus on the potential conditions of a final global climate change agreement expected to be ratified in 2015.
+          Delegates are to focus on the potential conditions of a final global climate change agreement expected to be ratified in 2015.        
         </div>
           <div id="e-2014" class="event">
           <em>2014, December</em>
           <h2 class="sottotitolo">Cop 20 - CMP 10</h2><hr>
           Lima, Perù<br>
-          Parties pledged to sign international agreement during the UNFCC Convention in Paris.
+          Parties pledged to sign international agreement during the UNFCC Convention in Paris.       
         </div>
         <div id="e-2015" class="event">
           <em>2015, November-December</em>
@@ -608,7 +616,7 @@
           Paris, France<br>
           Negotiations resulted in the adoption of the Paris Agreement which will enter into force on November 4th 2016.
            </div>
-         <div id="e-2016" class="event">
+         <div id="e-2016" class="event"> 
           <em>2016, November</em>
           <h2 class="sottotitolo">Cop 22 - CMP 12</h2><hr>
           Marrakech, Morocco<br></div>
@@ -632,8 +640,6 @@
           </div>
       </div>
       <div id="graph02">
-    <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1698 450" style="enable-background:new 0 0 1698 450;" xml:space="preserve" id="cop">
 <style type="text/css">
@@ -824,24 +830,24 @@
 </g>
 </svg>
 </div>
-<div class="container"><p class="datasource dswhite">Source: <a href="https://figshare.com/s/1458cb56ce2a631f4015" target="_blank">COP Conference reports</a> | Documents analyzed by <a href="https://voyant-tools.org/" target="_blank">Voyant Tools</a></p></div>
+<div class="container"><p class="datasource dswhite">Source: <a href="https://figshare.com/s/1458cb56ce2a631f4015" target="_blank">COP Conferences Reports</a> | Documents analyzed with <a href="https://voyant-tools.org/" target="_blank">Voyant Tools</a></p></div>
     </section>
 
     <section id="adaptation" class="rosa">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-            <p class="cit2"><mark>Adaptation</mark> refers to adjustments in ecological, social, or economic systems in response to climatic stimuli. <br>It refers to changes in processes to moderate damages or to benefit from opportunities associated with climate change.</p>
+              <p class="cit2"><mark>Adaptation</mark> refers to adjustments in ecological, social, or economic systems in response to climatic stimuli. <br>It refers to changes in processes to moderate damages or to benefit from opportunities associated with climate change.</p>
             <h2 class="sottotitolo fonte">United Nation Framework Convention on Climate Change (UNFCCC)</h2>
           </div>
         </div>
       </div>
       <div class="container">
-      <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+      <div class="row"><div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
       <h2 class="graphtitle">Adaptation programs founded during and after COPs</h2>
       <p class="dueColonne testo white">The growing interest around adaptation allowed the birth of international programs during and after COPs with the aim of helping specific areas. From 2002, five programs have been established and here is shown the increasing amount of funds that they have received from the international community.</p></div>
+          </div>
       <div id="adaptation-timeline">
-          <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1722 873.7" style="enable-background:new 0 0 1722 873.7;" xml:space="preserve">
 <style type="text/css">
@@ -873,7 +879,7 @@
   #adaptation-timeline .st23{letter-spacing:3;}
   #adaptation-timeline .st24{font-family:'Crimson Text'; font-size: 1.5em;}
 </style>
-  <polyline class="st11" points="242.7,790.1 363.8,788.4 482.4,793.3 601,790.1 719.6,760.7 836.9,729.6 955.5,680.6 1074.1,690.4
+  <polyline class="st11" points="242.7,790.1 363.8,788.4 482.4,793.3 601,790.1 719.6,760.7 836.9,729.6 955.5,680.6 1074.1,690.4 
     1192.7,332.8 1311.3,336.1 1429.9,244.6 1548.5,367.1 1667.1,368.7  "/>
   <line class="st12" x1="955.5" y1="682.8" x2="955.5" y2="795.2"/>
   <line class="st12" x1="835.9" y1="732" x2="835.9" y2="795.2"/>
@@ -937,19 +943,19 @@
   <rect x="123.4" y="90.3" class="st18" width="1544" height="704.6"/>
 </g>
 <g id="2012">
-
+  
     <rect x="1300.3" y="321.2" transform="matrix(0.7071 0.7071 -0.7071 0.7071 619.9995 -830.358)" class="st-r" width="24.1" height="24.1"/>
 </g>
 <g id="2009">
-
+  
     <rect x="943.4" y="668.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 761.3803 -476.1971)" class="st-r" width="24.1" height="24.1"/>
 </g>
 <g id="2008">
-
+  
     <rect x="823.9" y="716" transform="matrix(0.7071 0.7071 -0.7071 0.7071 759.6471 -377.8618)" class="st-r" width="24.1" height="24.1"/>
 </g>
 <g id="2002">
-
+  
     <rect x="111.4" y="780.8" transform="matrix(0.7071 0.7071 -0.7071 0.7071 596.8199 144.9503)" class="st-r" width="24.1" height="24.1"/>
 </g>
 <g id="2008_PPCR">
@@ -981,6 +987,7 @@
         </div>
         <p class="datasource dswhite">Source: <a href="https://figshare.com/s/eb6132db870f68ac43c8" target="_blank">Climate Fund Update</a> | 2002-2015</p>
       </div>
+        </div>
     </section>
      <section id="acting" class="chiaro">
     <div class="container">
@@ -994,9 +1001,6 @@
        <div class="container">
         <div class="row">
         <div id="fundcomp" class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
- <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1065.4 566.5" style="enable-background:new 0 0 1065.4 566.5;" xml:space="preserve">
 <style type="text/css">
@@ -1130,7 +1134,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" >
-    <h2 class="graphtitle white imbuto">The found journey: from donors to recipients</h2>
+    <h2 class="graphtitle white imbuto">The funds' journey: from donors to recipients</h2>
     </div>
   </div>
 </div>
@@ -1143,7 +1147,7 @@
 First, each donating country <em>pledges</em> a sum of money, that gets <em>deposited</em> in a specific fund. Second, money is <em>approved</em> from the funds, and only then it is <em>disbursed</em> to the receiving countries. <hr> In the following section, it will be analyzed the distribution of <i>deposited and approved</i> funds between countries.</span>
  </div>
 <div class="col-lg-7 col-sm-7 col-md-7 col-xs-12">
-<img src="img/imbuto.svg" style="padding: 15px">
+<img src="assets/imbuto.svg" style="padding: 15px">
 <p class="datasource dswhite">Source: <a href="https://figshare.com/s/eb6132db870f68ac43c8" target="_blank">Climate Fund Update</a></p>
 </div>
   </div>
@@ -1156,7 +1160,7 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
         <h2 class="graphtitle">Top ten donors and top twenty recipients</h2>
         <p class="dueColonne testo">Adaptation funds and their exchange cover almost all countries in the world, however only <em>thirty countries contribute to 86%</em> of all money. These ten countries deposited this amount of money from 2002 to 2015.<br>
         After being deposited, the money then needs to be approved. When approved, money is <em>already allocated by each fund</em> between the countries who need them.</p>
-        <img src="img/legenda-flussi.svg" width="100%" alt="legenda flussi" style="margin-bottom: 2em">
+        <img src="assets/legenda-flussi.svg" width="100%" alt="legenda flussi" style="margin-bottom: 2em">
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="958px"
@@ -1694,7 +1698,7 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
         <h2 class="graphtitle">The funds and their target area</h2>
           <p class="dueColonne testo">The money that each country receives targets five different key action areas about climate change adaptation. International agreements set the destination areas of funds to each country. <br><i data-container="body" data-toggle="popover" data-placement="top" data-content="Sometimes the most apt solutions work across different sectors. The goal of multisector programs is to find synergies that will enable projects to target the vulnerabilities that cross traditional boundaries with holistic solutions that do the same. ">Multisector programs</i> operate on multiple destination areas simultaneously in those countries whose condition can be improved on different fields.</p>
           <div id="legenda-tortine">
-          <img src="img/tortine-legenda.svg">
+          <img src="assets/tortine-legenda.svg">
           </div>
           <div id="piecharts">
           <div class="bottoni"><div id="b-all-sector" class="btn">All</div><div id="b-agricolture" class="btn">Agricolture</div><div id="b-civil" class="btn">Civil Society</div><div id="b-water" class="btn">Water</div><div id="b-multisector" class="btn">Multisector</div><div id="b-human" class="btn">Humanitarian Aid</div></div>
@@ -3637,8 +3641,8 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
   <rect x="85.49" y="575.72" class="st67" width="21.88" height="14.63"/>
   <rect x="85.49" y="590.35" class="st68" width="21.88" height="14.63"/>
   <rect x="63.63" y="590.35" class="st69" width="21.88" height="14.63"/>
-  <polygon class="st70" points="64.16,591.35 85.51,591.35 107.37,591.35 107.37,576.72 128.89,576.72 128.89,562.09 150.75,562.09
-    150.75,532.64 172.05,532.25 172.05,474.27 128.89,474.13 128.89,503.39 107.37,503.43 107.37,518.01 107.37,532.74 85.51,532.64
+  <polygon class="st70" points="64.16,591.35 85.51,591.35 107.37,591.35 107.37,576.72 128.89,576.72 128.89,562.09 150.75,562.09 
+    150.75,532.64 172.05,532.25 172.05,474.27 128.89,474.13 128.89,503.39 107.37,503.43 107.37,518.01 107.37,532.74 85.51,532.64 
     64.85,532.7   "/>
   <text transform="matrix(1 0 0 1 139.817 639.5616)" class="st71 st72">Less vulnerable </text>
   <text transform="matrix(0 -1 1 0 38.6669 529.5508)" class="st71 st72">More ready </text>
@@ -3651,7 +3655,7 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
     <pattern  id="SVGID_1_" xlink:href="#Linee_diagonali_nero" patternTransform="matrix(0.7453 0 0 0.7453 -2294.9038 -2097.2524)">
     </pattern>
     <rect x="40.96" y="65.08" class="st76" width="14.32" height="14.32"/>
-    <text transform="matrix(1 0 0 1 62.0644 104.0974)" class="st71 st72">Top 10 funds contributors</text>
+    <text transform="matrix(1 0 0 1 62.0644 104.0974)" class="st71 st72">Top 20 funds contributors</text>
     <pattern  id="SVGID_2_" xlink:href="#Nuovo_pattern_10" patternTransform="matrix(1 0 0 1 1.6166 -8.0964)">
     </pattern>
     <rect x="40.96" y="93.78" class="st77" width="14.32" height="14.32"/>
@@ -3683,8 +3687,8 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
   <rect id="ba" x="128.89" y="487.76" class="st17" width="21.86" height="14.63"/>
   <rect id="ab" x="150.75" y="473.13" class="st16" width="22.18" height="14.63"/>
   <rect id="aa" x="128.89" y="473.13" class="st15" width="21.86" height="14.63"/>
-  <polygon id="traccia_2_" class="st70" points="64.16,591.35 85.51,591.35 107.37,591.35 107.37,576.72 128.89,576.72
-    128.89,562.09 150.75,562.09 150.75,532.64 172.05,532.25 172.05,474.27 128.89,474.13 128.89,503.39 107.37,503.13 107.37,518.01
+  <polygon id="traccia_2_" class="st70" points="64.16,591.35 85.51,591.35 107.37,591.35 107.37,576.72 128.89,576.72 
+    128.89,562.09 150.75,562.09 150.75,532.64 172.05,532.25 172.05,474.27 128.89,474.13 128.89,503.39 107.37,503.13 107.37,518.01 
     107.37,532.74 85.51,532.64 64.85,532.7  "/>
 </g>
 <g id="paesi">
@@ -18065,7 +18069,7 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
         <div class="container">
           <h2 class="graphtitle">Who really needs help?</h2>
           <p class="dueColonne testo">With the vulnerability and readiness index matrix, the countries in the most critical situation emerged. Here, they are visualized with <em>the amount of money</em> that they actually receive from international adaptation funds. The <em>top twenty recipients</em> and the <em>top twenty vulnerable</em> are highlighted in the map.</p>
-          <img src="img/legenda-rombi.svg" width="50%" style="margin-left: -2.5em">
+          <img src="assets/legenda-rombi.svg" width="50%" style="margin-left: -2.5em">
         </div>
         <div id="heatmap" class="container-fluid">
         <div class="heatmap-bottoni"><div id="all" class="btn btn-left">All countries</div><div id="most-vuln" class="btn btn-right">Most vulnerable</div><div id="20-rec" class="btn btn-right">Top recipients</div></div>
@@ -18101,22 +18105,22 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
 </g>
 <g id="top-vuln">
   <g id="sudan">
-    <polygon id="r-sudan" class="st7" points="546.0388184,155.4946442 555.9680176,165.3636932 546.0388184,175.2327576
+    <polygon id="r-sudan" class="st7" points="546.0388184,155.4946442 555.9680176,165.3636932 546.0388184,175.2327576 
       536.1096191,165.3636932     "/>
     <text id="e-sudan" transform="matrix(1 0 0 1 570.8474121 168.740799)" class="st5 st6">Sudan</text>
   </g>
   <g id="timor">
-    <polygon id="r-timor" class="st8" points="850.7045898,317.3815613 860.7045898,327.3637085 850.7045898,337.3458252
+    <polygon id="r-timor" class="st8" points="850.7045898,317.3815613 860.7045898,327.3637085 850.7045898,337.3458252 
       840.7045898,327.3637085     "/>
     <text id="e-timor" transform="matrix(1 0 0 1 875.923584 329.9077148)" class="st5 st6">Timor Leste</text>
   </g>
   <g id="solomon">
-    <polygon id="r-solomon" class="st9" points="959.2937622,380.4946289 969.2229614,390.3637085 959.2937622,400.2327576
+    <polygon id="r-solomon" class="st9" points="959.2937622,380.4946289 969.2229614,390.3637085 959.2937622,400.2327576 
       949.364563,390.3637085    "/>
     <text id="e-solomon" transform="matrix(1 0 0 1 984.2661133 392.7310791)" class="st5 st6">Solomon Islands</text>
   </g>
   <g id="sierra" class="st10">
-    <polygon id="r-sierra" class="st11" points="291.9370728,182.1723633 302.1108093,191.8226624 292.4321289,201.9694214
+    <polygon id="r-sierra" class="st11" points="291.9370728,182.1723633 302.1108093,191.8226624 292.4321289,201.9694214 
       282.2583923,192.3191071     "/>
     <text id="e-sierra" transform="matrix(0.99969 -0.025 0.025 0.99969 316.7732849 194.6412201)" class="st12 st5 st6">Sierra Leone</text>
   </g>
@@ -18125,73 +18129,73 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
     <text id="e-papua_3_" transform="matrix(1 0 0 1 932.8731689 361.1309814)" class="st5 st6">Papua New Guinea</text>
   </g>
   <g id="niger">
-    <polygon id="r-niger" class="st9" points="481.8623657,39.3429146 516.8623657,74.2958221 481.8623657,109.2487259
+    <polygon id="r-niger" class="st9" points="481.8623657,39.3429146 516.8623657,74.2958221 481.8623657,109.2487259 
       446.8623657,74.2958221    "/>
     <text id="e-niger_3_" transform="matrix(1 0 0 1 531.9418945 77.49086)" class="st5 st6">Niger</text>
   </g>
   <g id="mali">
-    <polygon id="r-mali" class="st9" points="380.0388184,64.4946442 389.9680176,74.3636932 380.0388184,84.2327499
+    <polygon id="r-mali" class="st9" points="380.0388184,64.4946442 389.9680176,74.3636932 380.0388184,84.2327499 
       370.1096191,74.3636932    "/>
     <text id="e-mali_3_" transform="matrix(1 0 0 1 404.9682617 76.99086)" class="st5 st6">Mali</text>
   </g>
   <g id="mauritania">
-    <polygon id="r-mauritania" class="st9" points="367.2293091,30.343462 377.2293091,40.3636971 367.2293091,50.383934
+    <polygon id="r-mauritania" class="st9" points="367.2293091,30.343462 377.2293091,40.3636971 367.2293091,50.383934 
       357.2293091,40.3636971    "/>
     <text id="e-mauritania_3_" transform="matrix(1 0 0 1 392.3577881 43.0427704)" class="st5 st6">Mauritania</text>
   </g>
   <g id="madagascar">
-    <polygon id="r-madagascar" class="st9" points="689.6387939,316.4946289 699.5679932,326.3637085 689.6387939,336.2327576
+    <polygon id="r-madagascar" class="st9" points="689.6387939,316.4946289 699.5679932,326.3637085 689.6387939,336.2327576 
       679.7095947,326.3637085     "/>
     <text id="e-madagascar_3_" transform="matrix(1 0 0 1 713.7687988 329.8598633)" class="st5 st6">Madagascar</text>
   </g>
   <g id="liberia">
-    <polygon id="r-liberia" class="st9" points="309.5914001,232.7624054 314.6413574,237.5236969 309.8356934,242.5314636
+    <polygon id="r-liberia" class="st9" points="309.5914001,232.7624054 314.6413574,237.5236969 309.8356934,242.5314636 
       304.7857361,237.7701569     "/>
     <text id="e-liberia_3_" transform="matrix(0.99969 -0.025 0.025 0.99969 329.48703 240.0748749)" class="st5 st6">Liberia</text>
   </g>
   <g id="guinea">
-    <polygon id="r-guinea" class="st7" points="272.7238464,146.3535767 277.7238464,151.3636932 272.7238464,156.3738098
+    <polygon id="r-guinea" class="st7" points="272.7238464,146.3535767 277.7238464,151.3636932 272.7238464,156.3738098 
       267.7238464,151.3636932     "/>
     <text id="e-guinea_3_" transform="matrix(1 0 0 1 292.5759277 154.7403717)" class="st5 st6">Guinea - Bissau</text>
   </g>
   <g id="gambia">
-    <polygon id="r-gambia" class="st9" points="332.0388184,99.4946442 341.9680176,109.3636932 332.0388184,119.2327499
+    <polygon id="r-gambia" class="st9" points="332.0388184,99.4946442 341.9680176,109.3636932 332.0388184,119.2327499 
       322.1096191,109.3636932     "/>
     <text id="e-gambia_3_" transform="matrix(1 0 0 1 356.8001709 111.9430389)" class="st5 st6">Gambia</text>
   </g>
   <g id="eritrea">
-    <polygon id="r-eritrea" class="st14" points="626.9200439,93.4999161 631.8492432,98.3636932 626.9200439,103.227478
+    <polygon id="r-eritrea" class="st14" points="626.9200439,93.4999161 631.8492432,98.3636932 626.9200439,103.227478 
       621.9908447,98.3636932    "/>
     <text id="e-eritrea_3_" transform="matrix(1 0 0 1 647.5284424 101.9630585)" class="st5 st6">Eritrea</text>
   </g>
   <g id="congo">
-    <polygon id="r-congo" class="st7" points="503.639679,198.7655945 508.5689087,203.636261 503.639679,208.5069275
+    <polygon id="r-congo" class="st7" points="503.639679,198.7655945 508.5689087,203.636261 503.639679,208.5069275 
       498.7104187,203.636261    "/>
     <text id="e-congo_3_" transform="matrix(1 0 0 1 523.4486084 207.0739899)" class="st5 st6">Dem. Repubblic of Congo</text>
   </g>
   <g id="chad">
-
+    
       <rect id="r-chad" x="505.5635986" y="124.8285904" transform="matrix(0.7070215 -0.7071921 0.7071921 0.7070215 58.3771896 397.6383667)" class="st7" width="7.0702152" height="7.0702152"/>
     <text id="e-chad_3_" transform="matrix(1 0 0 1 529.069458 130.8241119)" class="st5 st6">Chad</text>
   </g>
   <g id="benin">
     <text id="e-benin" transform="matrix(1 0 0 1 432.6663818 207.4546661)" class="st5 st6">Benin</text>
-    <polygon id="r-benin" class="st9" points="407.6838379,194.4946442 417.6130371,204.3636932 407.6838379,214.2327423
+    <polygon id="r-benin" class="st9" points="407.6838379,194.4946442 417.6130371,204.3636932 407.6838379,214.2327423 
       397.7546387,204.3636932     "/>
   </g>
   <g id="burundi">
-    <polygon id="r-burundi" class="st9" points="474.9588623,311.4999084 479.8880615,316.3637085 474.9588623,321.227478
+    <polygon id="r-burundi" class="st9" points="474.9588623,311.4999084 479.8880615,316.3637085 474.9588623,321.227478 
       470.0296326,316.3637085     "/>
     <text id="e-burundi" transform="matrix(1 0 0 1 494.5617676 319.9074707)" class="st5 st6">Burundi</text>
   </g>
   <g id="afghanistan">
-    <polygon id="r-afghanistan" class="st7" points="817.4838257,89.4999161 822.4130249,94.3636932 817.4838257,99.227478
+    <polygon id="r-afghanistan" class="st7" points="817.4838257,89.4999161 822.4130249,94.3636932 817.4838257,99.227478 
       812.5546265,94.3636932    "/>
     <text id="e-afghanistan" transform="matrix(1 0 0 1 838.1262207 98.3639069)" class="st5 st6">Afghanistan</text>
   </g>
   <g id="yemen">
     <text id="e-yemen" transform="matrix(1 0 0 1 821.5036621 206.1362457)" class="st5 st6">Yemen</text>
-    <polygon id="r-yemen" class="st7" points="791.3947144,187.7410736 806.3239746,202.636261 791.3947144,217.5314331
+    <polygon id="r-yemen" class="st7" points="791.3947144,187.7410736 806.3239746,202.636261 791.3947144,217.5314331 
       776.4654541,202.636261    "/>
   </g>
 </g>
@@ -18199,17 +18203,17 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
 <g id="top-ric">
 <g id="yemen">
     <text id="e-yemen" transform="matrix(1 0 0 1 821.5036621 206.1362457)" class="st5 st6">Yemen</text>
-    <polygon id="r-yemen" class="st7" points="791.3947144,187.7410736 806.3239746,202.636261 791.3947144,217.5314331
+    <polygon id="r-yemen" class="st7" points="791.3947144,187.7410736 806.3239746,202.636261 791.3947144,217.5314331 
       776.4654541,202.636261    "/>
   </g>
   <g id="guinea">
-    <polygon id="r-guinea" class="st7" points="272.7238464,146.3535767 277.7238464,151.3636932 272.7238464,156.3738098
+    <polygon id="r-guinea" class="st7" points="272.7238464,146.3535767 277.7238464,151.3636932 272.7238464,156.3738098 
       267.7238464,151.3636932     "/>
     <text id="e-guinea_3_" transform="matrix(1 0 0 1 292.5759277 154.7403717)" class="st5 st6">Guinea - Bissau</text>
   </g>
 <g id="benin">
     <text id="e-benin" transform="matrix(1 0 0 1 432.6663818 207.4546661)" class="st5 st6">Benin</text>
-    <polygon id="r-benin" class="st9" points="407.6838379,194.4946442 417.6130371,204.3636932 407.6838379,214.2327423
+    <polygon id="r-benin" class="st9" points="407.6838379,194.4946442 417.6130371,204.3636932 407.6838379,214.2327423 
       397.7546387,204.3636932     "/>
   </g>
 
@@ -18217,49 +18221,49 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
       <rect id="r-papua" x="899.4541016" y="351.2947998" transform="matrix(0.7068909 -0.7073225 0.7073225 0.7068909 12.2313843 746.2438354)" class="st13" width="14.1378212" height="14.1378212"/>
     <text id="e-papua_3_" transform="matrix(1 0 0 1 932.8731689 361.1309814)" class="st5 st6">Papua New Guinea</text>
   </g>
-  <polygon id="r-mozambico" class="st0" points="535.5333862,400.7713013 560.5333862,425.6655273 535.5333862,450.5597839
+  <polygon id="r-mozambico" class="st0" points="535.5333862,400.7713013 560.5333862,425.6655273 535.5333862,450.5597839 
     510.5333862,425.6655273   "/>
-  <polygon id="r-zambia" class="st0" points="447.2189026,333.2728577 472.2189026,358.511261 447.2189026,383.7496338
+  <polygon id="r-zambia" class="st0" points="447.2189026,333.2728577 472.2189026,358.511261 447.2189026,383.7496338 
     422.2189026,358.511261  "/>
-  <polygon id="r-malawi" class="st0" points="565.0870361,349.3772583 575.0870361,359.6008606 565.0870361,369.8244629
+  <polygon id="r-malawi" class="st0" points="565.0870361,349.3772583 575.0870361,359.6008606 565.0870361,369.8244629 
     555.0870361,359.6008606   "/>
-  <polygon id="r-jamaica" class="st1" points="99.038826,82.4946442 108.9680252,92.3636932 99.038826,102.2327499
+  <polygon id="r-jamaica" class="st1" points="99.038826,82.4946442 108.9680252,92.3636932 99.038826,102.2327499 
     89.1096191,92.3636932   "/>
-  <polygon id="r-tajikistan" class="st0" points="936.7288818,42.3433647 962.8760376,68.3636932 936.7288818,94.3840256
+  <polygon id="r-tajikistan" class="st0" points="936.7288818,42.3433647 962.8760376,68.3636932 936.7288818,94.3840256 
     910.5817261,68.3636932  "/>
-  <polygon id="r-nepal" class="st2" points="903.6729736,105.5097885 933.6729736,135.3636932 903.6729736,165.2176056
+  <polygon id="r-nepal" class="st2" points="903.6729736,105.5097885 933.6729736,135.3636932 903.6729736,165.2176056 
     873.6729736,135.3636932   "/>
-  <polygon id="r-cambogia" class="st2" points="1039.831665,231.5338745 1074.831665,266.3637085 1039.831665,301.193512
+  <polygon id="r-cambogia" class="st2" points="1039.831665,231.5338745 1074.831665,266.3637085 1039.831665,301.193512 
     1004.8317261,266.3637085  "/>
-  <polygon id="r-bangladesh" class="st0" points="932.0267334,166.5349121 967.0267334,201.3636932 932.0267334,236.1924744
+  <polygon id="r-bangladesh" class="st0" points="932.0267334,166.5349121 967.0267334,201.3636932 932.0267334,236.1924744 
     897.0267334,201.3636932   "/>
-  <polygon id="r-gibuti" class="st0" points="638.3934937,132.4021759 648.3934937,142.3636932 638.3934937,152.3252106
+  <polygon id="r-gibuti" class="st0" points="638.3934937,132.4021759 648.3934937,142.3636932 638.3934937,152.3252106 
     628.3934937,142.3636932   "/>
-  <polygon id="r-rwanda" class="st3" points="448.6838379,234.4946442 458.6130371,244.3636932 448.6838379,254.2327423
+  <polygon id="r-rwanda" class="st3" points="448.6838379,234.4946442 458.6130371,244.3636932 448.6838379,254.2327423 
     438.7546387,244.3636932   "/>
-  <polygon id="r-bolivia" class="st1" points="131.3223419,291.0447998 156.3223419,316.6008606 131.3223419,342.1569519
+  <polygon id="r-bolivia" class="st1" points="131.3223419,291.0447998 156.3223419,316.6008606 131.3223419,342.1569519 
     106.3223419,316.6008606   "/>
-  <polygon id="r-samoa" class="st4" points="976.541626,419.5632324 996.541626,439.3637085 976.541626,459.1641846
+  <polygon id="r-samoa" class="st4" points="976.541626,419.5632324 996.541626,439.3637085 976.541626,459.1641846 
     956.541626,439.3637085  "/>
-  <polygon id="r-tanzania" class="st0" points="560.9609375,268.3772583 570.9609375,278.6008606 560.9609375,288.8244934
+  <polygon id="r-tanzania" class="st0" points="560.9609375,268.3772583 570.9609375,278.6008606 560.9609375,288.8244934 
     550.9609375,278.6008606   "/>
     <g id="sudan">
-    <polygon id="r-sudan" class="st7" points="546.0388184,155.4946442 555.9680176,165.3636932 546.0388184,175.2327576
+    <polygon id="r-sudan" class="st7" points="546.0388184,155.4946442 555.9680176,165.3636932 546.0388184,175.2327576 
       536.1096191,165.3636932     "/>
     <text id="e-sudan" transform="matrix(1 0 0 1 570.8474121 168.740799)" class="st5 st6">Sudan</text>
   </g>
   <g id="niger">
-    <polygon id="r-niger" class="st9" points="481.8623657,39.3429146 516.8623657,74.2958221 481.8623657,109.2487259
+    <polygon id="r-niger" class="st9" points="481.8623657,39.3429146 516.8623657,74.2958221 481.8623657,109.2487259 
       446.8623657,74.2958221    "/>
     <text id="e-niger_3_" transform="matrix(1 0 0 1 531.9418945 77.49086)" class="st5 st6">Niger</text>
   </g>
   <g id="mali">
-    <polygon id="r-mali" class="st9" points="380.0388184,64.4946442 389.9680176,74.3636932 380.0388184,84.2327499
+    <polygon id="r-mali" class="st9" points="380.0388184,64.4946442 389.9680176,74.3636932 380.0388184,84.2327499 
       370.1096191,74.3636932    "/>
     <text id="e-mali_3_" transform="matrix(1 0 0 1 404.9682617 76.99086)" class="st5 st6">Mali</text>
   </g>
   <g id="gambia">
-    <polygon id="r-gambia" class="st9" points="332.0388184,99.4946442 341.9680176,109.3636932 332.0388184,119.2327499
+    <polygon id="r-gambia" class="st9" points="332.0388184,99.4946442 341.9680176,109.3636932 332.0388184,119.2327499 
       322.1096191,109.3636932     "/>
     <text id="e-gambia_3_" transform="matrix(1 0 0 1 356.8001709 111.9430389)" class="st5 st6">Gambia</text>
   </g>
@@ -18323,19 +18327,19 @@ First, each donating country <em>pledges</em> a sum of money, that gets <em>depo
     <h2 class="graphtitle">The many points of no return</h2>
     <p class="dueColonne testo">Is it legitimate to identify a single threshold past which it is impossible to go back?
 The point of no return for climate change is uncertain for each country and influenced by different causes.
-Because of this, each one of them requires an ever changing and focused financial and political support. International agreements to prevent and contain climate change consequences allow the most vulnerable countries to interact with the world’s other countries.<br>
-Even though it’s impossible to identify the line between reversibility and irreversibility, the scientific community is unanimous that the human influence on climate change is decisive. Therefore, the meeting between the countries continues.
+Because of this, each one of them requires an ever changing and focused financial and political support.<br><br>International agreements to prevent and contain climate change consequences allow the most vulnerable countries to interact with the world’s other countries.<br>
+Even though it’s impossible to identify the line between reversibility and irreversibility, the scientific community is unanimous that the human influence on climate change is decisive.<br><br>Therefore, the meeting between the countries continues.
 At COP22 in Marrakech, the central theme of adaptation to climate change carries forward the conversation of COP21 in Paris, that signed the Paris Agreement.</p>
     </div>
     </section>
      <footer class="scuro">
-     <div class="container white">
+         <div class="container white">
        <div class="row">
        <div class="col-lg-3 col-sm-3 col-md-3 col-xs-4 logo" >
-         <img src="img/logo_density_white.png" width="80"><img src="img/logo-poli.png" width="80">
+         <a href="http://www.densitydesign.org/" target="_blank"><img src="assets/logo_density_white.png" width="80"></a><br><a href="http://www.polimi.it/" target="_blank"><img src="assets/logo-poli.png" width="80"></a>
        </div>
        <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6 credits" >
-         <h2>Project by</h2><p>Valeria Aufiero<br>Andrea Benedetti<br>Alessia Bissolotti<br>Simone Costagliola<br>Beatrice Gobbo<br></p>
+         <h2>Project by</h2><p><a href="https://www.behance.net/ValeriaAufiero" target="_blank">Valeria Aufiero</a><br><a href="http://andrea-benedetti.it/ target="_blank"">Andrea Benedetti</a><br><a href="https://www.behance.net/AlessiaBissolotti" target="_blank">Alessia Bissolotti</a><br><a href="https://www.behance.net/SimoneCostagliola" target="_blank">Simone Costagliola</a><br><a href="https://www.linkedin.com/in/beatrice-gobbo-928609a9/" target="_blank">Beatrice Gobbo</a><br></p>
        </div>
        <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6 credits" >
          <h2>Faculty</h2><p>Paolo Ciuccarelli<br>Marco Fattore<br>Stefano Mandato<br>Michele Mauri<br>Salvatore Zingale<br></p>
@@ -18343,10 +18347,7 @@ At COP22 in Marrakech, the central theme of adaptation to climate change carries
         <div class="col-lg-3 col-sm-3 col-md-3 col-xs-8 credits" >
          <h2>Assistants</h2><p>Angeles Briones<br>Azzurra Pini<br>Tommaso Elli<br>Michele Invernizzi<br></p>
        </div>
-       <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 credits"><p style="text-align: right; font-size: 0.8em">Many thanks to Mattia Geraci for the spinning ball of death</p>
-       </div>
-       </div>
-       </div>
+             </div>
      </footer>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="js/bootstrap.min.js"></script>
@@ -18356,6 +18357,7 @@ At COP22 in Marrakech, the central theme of adaptation to climate change carries
     <script src='js/jquery.vide.js'></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script>
         jQuery(document).ready(function($) {
             $('.ind').counterUp({

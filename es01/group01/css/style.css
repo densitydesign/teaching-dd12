@@ -515,10 +515,8 @@ h2.graphtitle {
 /* TIMELINE */
 
 #timeline {
-  width: 85%;
+  width: 100%;
   margin-bottom: 2.5em;
-  margin-left: 8%;
-  margin-right: 5%;
   font-family: 'Poppins';
   letter-spacing:'1px';
   font-size: 1em;
@@ -1012,6 +1010,14 @@ body.loading .modal {
   .po-subtitle {
     font-size: 0.9em;
   }
+/*
+  #timeline svg {
+    width: 900px;
+    overflow-x: hidden;
+  }
+
+  #timeline .st4{font-size:1.5em !important;}
+  #timeline .st8{font-size:1.5em !important;}*/
 }
 
 #conclusioni em {
@@ -1019,6 +1025,7 @@ body.loading .modal {
   font-weight: bold;
   font-size: 1.1em;
 }
+
 
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
   .container {

@@ -1036,7 +1036,7 @@ body.loading .modal {
   }
 }
 
-/*@media only screen (max-width: 768px){
+@media only screen (max-width: 768px){
   #nav li {
     margin: 0;
   }

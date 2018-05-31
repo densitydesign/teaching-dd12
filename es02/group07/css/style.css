@@ -1,0 +1,166 @@
+/* Add your styles here */
+
+.svg{
+font-family: 'Share Tech Mono', monospace;
+} 
+
+.off { 
+opacity:0;
+}
+
+.button {
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: em;
+    text-align: center;
+    width: 14%;
+    background-color:transparent;
+    border-color: #377e8e;
+    color: #377e8e;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer; 
+    border-radius: 2px; 
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-size: 1.1em;
+}
+
+.button1 {
+    background-color: transparent;
+    color: #00f2f5;
+    border-color: #00f2f5;
+    border: 1px solid #00f2f5;
+}
+
+.button1:hover{
+    background-color: white;
+    color:#00f2f5;
+}
+
+.button2 {
+    background-color: transparent;
+    color: #00f2f5;
+    border-color: #00f2f5;
+    border: 1px solid #00f2f5;
+
+}
+
+.button2:hover{
+    background-color: white;
+    color:#00f2f5;
+}
+
+.button3 {
+    background-color: transparent;
+    color:#00f2f5;
+    border-color: #00f2f5;
+    border: 1px solid #00f2f5;
+}
+
+.button3:hover{
+    background-color: white;
+    color:#00f2f5;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+     -webkit-transition: 0.9s ease-in-out left;
+ -moz-transition: 0.9s ease-in-out left;
+ -o-transition: 0.9s ease-in-out left;
+ transition: 0.9s ease-in-out left;
+  }
+
+
+
+.map-svg{
+    width: 80%;
+   text-align: center;
+    margin-left:6em;
+}
+
+/* Mappa */
+
+.mappa{
+    cursor: default;
+}
+
+#domanda1{
+    cursor: pointer;
+}
+
+#domanda2{
+    cursor: pointer;
+}
+
+#domanda3{
+    cursor: pointer;
+}
+
+#domanda4{
+    cursor: pointer;
+}
+
+#domanda5{
+    cursor: pointer;
+}
+
+#domanda6{
+    cursor: pointer;
+}
+
+#domanda7{
+    cursor: pointer;
+}
+
+
+/* viz_trame */
+
+.viz_trame{
+    width: 100%;
+} 
+
+
+#Livello_1{
+    cursor: pointer;
+}
+
+#Livello_2{
+    cursor: pointer;
+}
+
+#Livello_3{
+    cursor: pointer;
+}
+
+#Livello_4{
+    cursor: pointer;
+}
+
+#Livello_5{
+    cursor: pointer;
+}
+
+#Livello_6{
+    cursor: pointer;
+}
+
+#Livello_7{
+    cursor: pointer;
+}
+
+#Livello_8{
+    cursor: pointer;
+}
+
+#Livello_9{
+    cursor: pointer;
+}
+
+#Livello_10{
+    cursor: pointer;
+}
+

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'MetaPro';
+    src: url('../fonts/MetaPro-Normal.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetaProBold';
+    src: url('../fonts/MetaPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: 'MetaProMedium';
+    src: url('../fonts/MetaPro-Medium.otf');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+
+@font-face {
+    font-family: 'MetaProBlack';
+    src: url('../fonts/MetaPro-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    background-color: #20201d;
+    font-family: 'MetaPro';
+}
+a {cursor: pointer;}
+a:link    {color:black; background-color:transparent; text-decoration:none}
+a:visited {color:black; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:transparent; text-decoration:none}
+
+/* legenda */ 
+	.st0{fill:#FFFFFF;}
+	.st1{font-family:'MetaPro';}
+	.st2{font-size:38px;}
+	.st3{fill:#561313;}
+	.st4{font-size:30px;}
+	.st5{fill:#E2AB9C;}
+	.st6{fill:#BE3430;}

@@ -1,0 +1,295 @@
+
+
+@font-face {
+    font-family: 'MetaPro';
+    src: url('../fonts/MetaPro-Normal.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetaProBold';
+    src: url('../fonts/MetaPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: 'MetaProMedium';
+    src: url('../fonts/MetaPro-Medium.otf');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+
+@font-face {
+    font-family: 'MetaProBlack';
+    src: url('../fonts/MetaPro-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    background-color: #20201d;
+}
+
+
+
+/* PAGINA 1 */
+
+.cuffie{
+    
+    display: table;
+    margin: 0 auto;
+}
+
+#gif-cuffie {
+    height: 160px;
+}
+
+
+.start{
+    
+    display: table;
+    margin: 0 auto;
+}
+
+.btn-mio a:link    {color:black; background-color:transparent; text-decoration:none}
+.btn-mio a:visited {color:black; background-color:transparent; text-decoration:none}
+.btn-mio a:hover   {color:black; background-color:transparent; text-decoration:none; font-weight: bold}
+
+
+.btn-mio{
+    background-color: transparent;
+    border: 2px solid #f1f2f2;
+    
+    color: #f1f2f2;
+    border-radius: 0px;
+    width: 200px;
+    margin-top: 40px;
+    font-family: 'MetaPro';
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    
+    
+}
+
+.btn-mio:focus,
+.btn-mio.focus {
+  color: #1d1d1b;
+  background-color: #f1f2f2;
+  border-color: #f1f2f2;
+  text-decoration: none !important;
+  font-family: 'MetaProBold';
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+}
+.btn-mio:hover {
+ color: #1d1d1b;
+ font-weight: 500;    
+ background-color: #f9f9f9;
+ border-color: #f1f2f2;
+ text-decoration: none !important;
+ font-family: 'MetaProBold';
+ letter-spacing: 0.5px;
+ 
+   
+}
+
+.btn-mio:focus, .btn-mio:active, .btn-mio:focus:active {
+  background-image: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#myvid {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%}
+
+
+
+/* PAGINA 3 */
+
+.text-3 h1 {
+    
+    color:#f1f1f2;
+    font-family: "MetaPro";
+    
+    font-size: 37px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+.gif-treemap{
+    
+    display: table;
+    margin: 0 auto;
+    
+}
+
+#gif-tree {
+    height: 140px;
+}
+
+
+.next{
+    
+    display: table;
+    margin: 0 auto;
+}
+
+.text h2{
+    font-family: 'MetaPro';
+    
+    letter-spacing: 1.3px;
+    color: #f1f2f2;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 36px;
+    
+}
+
+
+/* PAGINA 5 */ 
+
+.pag5-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text5 h2{
+    font-family: 'MetaPro';
+    letter-spacing: 1.3px;
+    color: #f1f2f2;
+    font-size: 24px;
+    
+    text-align: center;
+    line-height: 40px;
+        
+    -webkit-animation: fadein 1.8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.8s; /* Firefox < 16 */
+        -ms-animation: fadein 1.8s; /* Internet Explorer */
+         -o-animation: fadein 1.8s; /* Opera < 12.1 */
+            animation: fadein 1.8s;
+}
+
+
+.text6 h2{
+    font-family: 'MetaPro';
+    letter-spacing: 1.3px;
+    color: #f1f2f2;
+    font-size: 24px;
+    
+    text-align: center;
+    line-height: 100%;
+        
+    -webkit-animation: fadein 1.8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.8s; /* Firefox < 16 */
+        -ms-animation: fadein 1.8s; /* Internet Explorer */
+         -o-animation: fadein 1.8s; /* Opera < 12.1 */
+            animation: fadein 1.8s;
+}
+
+.text6 h3{
+    font-family: 'MetaProBold';
+    letter-spacing: 1.8px;
+    color: #f1f2f2;
+    font-size: 24px;    
+    text-align: center;
+   
+        
+    -webkit-animation: fadein 1.8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.8s; /* Firefox < 16 */
+        -ms-animation: fadein 1.8s; /* Internet Explorer */
+         -o-animation: fadein 1.8s; /* Opera < 12.1 */
+            animation: fadein 1.8s;
+}
+
+
+
+
+
+
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* treeemap */
+
+
+/* legenda 
+
+
+	
+
+	.leg-0{fill:#FFFFFF;}
+	.leg-1{font-family:'MetaPro';}
+	.leg-2{font-size:38px;}
+	.leg-3{fill:#BF6969;}
+	.leg-4{font-size:30px;}
+	.leg-5{fill:#48B384;}
+	.leg-6{fill:none;}
+	.leg-7{fill:#D98E64;} */
+
+
+
+
+
+
+
+   
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Are you sure?</title>
+    
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-video.css" rel="stylesheet">
+    
+    
+</head>
+
+
+<body>
+    
+    
+    <video id="myvid" class="full_screen"autoplay >
+            <source src="video/noncensurato.mp4" type="video/mp4" >
+    </video>
+
+
+
+    <script type="text/javascript">
+        video = document.getElementById('myvid');
+        video.addEventListener('ended',function() {     
+            window.location.href = 'experience5.html';
+        });
+        
+        var vid = document.getElementById("myvid");
+        vid.volume = 0.20;
+        
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+    
+    
+    
+</body>
+    
+</html>

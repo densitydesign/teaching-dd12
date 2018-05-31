@@ -1,0 +1,554 @@
+/* General styles */
+
+body{
+    background-color: #fff; /* Palette */
+    color: #333; /* Palette */
+
+}
+
+
+p{
+    font-family:'Libre Baskerville', serif;
+    line-height: 160%;
+    font-size: 1.2em;
+}
+
+h1{
+    font-family:'Libre Baskerville', serif;
+    line-height: 115%;
+    font-size: 2.8em;
+    font-weight: 700;
+    padding-top: 0px;
+}
+
+h2,h3,h4,h5,li {
+    font-family:'Karla', sans-serif;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #E5B94C; /* Palette */
+}
+
+h5{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+a{
+    color: #E5B94C; /* Palette */
+}
+
+a:focus, a:hover {
+    color: #BA8000; /* Palette */
+}
+
+
+/* Introduction */
+
+.my-cover{
+    min-height:  540px;
+    margin-bottom: 50px;
+    background: url("https://placeholdit.imgix.net/~text?txtsize=117&bg=fed766&txt=1400%C3%97900&w=1400&h=900") no-repeat top center fixed;
+    background-size: cover;
+}
+
+.introduction {
+    margin-top:-350px;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.introduction h1{
+    font-size: 5em;
+    padding-top: 40px
+}
+
+.introduction h5{
+    font-family:'Libre Baskerville', serif;
+    color: #E5B94C; /* Palette */
+}
+
+.introduction h3{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.introduction img{
+    max-width: 100%;
+}
+
+.section-text-introduction{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding-top: 50px;
+}
+
+.section-content-copy{
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+
+.section-content-copy img{
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.chapters{
+    border:0 #ccc solid; /* Palette */
+    border-top-width: 1px;
+    margin-bottom: 0px;
+}
+
+.chapters h1{
+    font-size: 2.5em;
+}
+
+.chapters h2{
+    font-size: 1.5em;
+}
+
+/* Research map svg styles, you can delete all of this when you have your roadmap diagram ready */
+
+.map-svg {
+    width: 50%;
+    margin: 50px 25%;
+}
+
+.map-btn {
+    cursor: pointer;
+}
+
+.map-line {
+    fill: none;
+    stroke: #E5B94C;
+    stroke-width: 3px;
+    stroke-miterlimit: 10;
+}
+
+.map-box {
+    fill: #FFFFFF;
+    stroke: #000000;
+    stroke-width: 2px;
+    stroke-miterlimit: 10;
+}
+
+.map-text {
+    font-family: 'Karla', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+/* end of map svg styles */
+
+
+/* Sidebar menu */
+
+.menu-sidebar {
+    background-color: #E5B94C; /* Palette */
+    position: fixed;
+    z-index: 1000;
+}
+
+.menu-sidebar i{
+    padding: 19px!important;
+    font-size: 2em;
+    color: #fff;
+    background-color: #E5B94C; /* Palette */
+}
+
+#wrapper {
+    overflow-x: hidden;
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease; /* Chrome, Safari, Opera */
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 0;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000; /* Palette */
+    -webkit-transition: all 0.5s ease; /* Chrome, Safari, Opera */
+    transition: all 0.5s ease;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 0;
+}
+
+#page-content-wrapper {
+    width: 500px;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: -350px;
+    width: 100%;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-brand {
+    margin-bottom: 50px;
+    height:100px;
+    background-color: #E5B94C; /* Palette */
+    font-family:'Karla', sans-serif;
+    letter-spacing: 1px;
+}
+
+.sidebar-brand a{
+    padding-left: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff!important;
+}
+
+.sidebar-brand a:hover{
+    color: #ccc!important;
+}
+
+.sidebar-nav h4{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+.sidebar-nav h5{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #E5B94C; /* Palette */
+}
+
+
+.sidebar-nav li {
+
+    line-height: 20px;
+
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav li a:active{
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.questions-list {
+    color: #999999;
+    list-style-type: decimal;
+    padding-left: 50px;
+}
+
+.questions-list li a{
+    padding-left: 10px;
+}
+
+/* Viz page */
+.my-viz{
+    /*background: url("https://placeholdit.imgix.net/~text?txtsize=100&bg=fed766&txtclr=1D8680&txt=Your+viz+here&w=1400&h=650") no-repeat center center; */
+    min-height:  650px;
+    margin-bottom: 50px;
+}
+
+.my-viz img {
+    margin: 0 1%;
+    width: 98%;
+}
+
+.sigma-network {
+    height: 600px;
+    margin: 0%;
+    width: 99%;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 1px;
+    border-right-color: #000000;
+}
+
+.affix-top,.affix{
+    position: static;
+    border:0 #ccc solid;
+    border-top-width:1px;
+}
+
+#sidebar li {
+    border:0 #ccc solid;
+    border-bottom-width:1px;
+    letter-spacing: 1px;
+}
+
+
+#sidebar li.active {
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.main-content{
+    margin-bottom: 80px;
+}
+
+.section-content{
+    padding-top: 70px;
+    margin-bottom: 40px;
+
+}
+
+.section-text{
+    border:0 #ccc solid; /* Palette */
+    border-top-width: 2px;
+}
+
+
+.nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Research question title */
+
+.question-box {
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.arrows-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 20px 0 30px;
+}
+
+.arrows-container.first-page {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.arrow-left,
+.arrow-right {
+    cursor: pointer;
+}
+
+.arrow-left a,
+.arrow-right a {
+    color: #333333;
+    font-size: 0.9em;
+    position: relative;
+    text-decoration: none;
+}
+
+.arrow-left a::after,
+.arrow-right a::after {
+    background-color: #333333;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 100%;
+}
+
+.arrow-left:hover a::after,
+.arrow-right:hover a::after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Protocol */
+
+.protocol-diagram {
+    width: 100%;
+    margin: 10px 0 20px;
+}
+
+/* Data  */
+.data-link {
+    margin-bottom: 40px;
+}
+
+/*Footer*/
+.footer{
+    background-color: #000; /* Palette */
+    color:#fff; /* Palette */
+    font-family: 'Karla', sans-serif;
+    bottom:0;
+    position: relative;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.footer h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+/* Media queries */
+
+@media only screen and (max-width : 420px) {
+    .footer h4{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    .section-text-introduction{
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+        padding-top: 0px;
+    }
+
+    .introduction h1{
+        font-size: 2.5em;
+        padding-top: 40px
+    }
+
+    .chapters{
+        margin-bottom: 50px;
+    }
+
+    .footer img{
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 350px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 350px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+    .sidebar-nav {
+        width: 350px;
+    }
+
+    .question-box {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 979px) {
+    #sidebar.affix-top {
+        position: static;
+        margin-top: 72px;
+        width: 228px;
+    }
+
+    #sidebar.affix {
+        position: fixed;
+        top: 144px;
+        width: 228px;
+    }
+}
+
+
+/*Buttons and UI*/
+.btn{
+    font-family:'Karla', sans-serif;
+    border-radius: 3px;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 186.3" style="enable-background:new 0 0 1440 186.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{font-family:'MetaPro-Normal';}
+	.st2{font-size:38px;}
+	.st3{fill:#561313;}
+	.st4{font-size:30px;}
+	.st5{fill:#E2AB9C;}
+	.st6{fill:#BE3430;}
+</style>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 76.2036 32.5105)" class="st0 st1 st2">Sensitive content</text>
+		<rect y="0" class="st3" width="42.7" height="42.7"/>
+	</g>
+	<text transform="matrix(1 0 0 1 4.882812e-04 103.7879)" class="st0 st1 st4">The integral videos show  </text>
+	<text transform="matrix(1 0 0 1 4.882812e-04 139.7879)" class="st0 st1 st4">graphic content and violence.</text>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 1162.5078 32.5105)" class="st0 st1 st2">Safe content</text>
+		<rect x="1086.3" y="0" class="st5" width="42.7" height="42.7"/>
+	</g>
+	<text transform="matrix(1 0 0 1 1086.3047 103.7879)" class="st0 st1 st4">The videos show the news</text>
+	<text transform="matrix(1 0 0 1 1086.3047 139.7879)" class="st0 st1 st4">that use the pictures of the </text>
+	<text transform="matrix(1 0 0 1 1086.3047 175.7879)" class="st0 st1 st4">victims or their relatives.</text>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 609.1177 32.5105)" class="st0 st1 st2">Censored content</text>
+		<rect x="532.9" y="0" class="st6" width="42.7" height="42.7"/>
+	</g>
+	<text transform="matrix(1 0 0 1 532.9146 103.7879)" class="st0 st1 st4">The integral videos are cutted  </text>
+	<text transform="matrix(1 0 0 1 532.9146 139.7879)" class="st0 st1 st4">or modified in order to hide  </text>
+	<text transform="matrix(1 0 0 1 532.9146 175.7879)" class="st0 st1 st4">graphic scenes.</text>
+</g>
+</svg>

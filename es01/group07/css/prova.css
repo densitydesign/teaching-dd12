@@ -1,0 +1,26 @@
+html {
+    background-color: #ccc;
+}
+
+nav {
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    width:100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+nav>ul>li {
+display:inline-block;
+    vertical-align: top;
+}
+
+nav>li {
+    list-style: none;
+}
+
+nav>ul>li>ul {
+    list-style: none;
+}

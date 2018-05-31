@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="686.6px"
+	 height="289px" viewBox="0 0 686.6 289" style="enable-background:new 0 0 686.6 289;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.4;fill:none;stroke:#C1C1C1;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#007CA8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{font-family:'Poppins-Regular';}
+	.st3{font-size:8px;}
+	.st4{font-family:'CrimsonText-Roman';}
+	.st5{font-size:11.3923px;}
+	.st6{font-size:10px;}
+	.st7{letter-spacing:1;}
+	.st8{fill:none;stroke:#007CA8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st9{fill:none;stroke:#777777;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0,3;}
+</style>
+<g id="base">
+	<line class="st0" x1="41.3" y1="216.4" x2="687.3" y2="216.4"/>
+	<line class="st0" x1="41.3" y1="182.4" x2="687.3" y2="182.4"/>
+	<line class="st0" x1="41.3" y1="78.4" x2="687.3" y2="78.4"/>
+	<line class="st0" x1="41.3" y1="112.4" x2="687.3" y2="112.4"/>
+	<line class="st0" x1="41.3" y1="148.4" x2="687.3" y2="148.4"/>
+	<g>
+		<polyline class="st1" points="40.5,181.3 46.9,178.1 55.5,176.4 61.9,178.1 68.3,187.8 76.9,197.6 83.3,186.2 91.8,178.1 
+			98.3,173.2 104.7,176.4 113.2,178.1 119.7,186.2 126.1,189.5 134.6,186.2 141.1,178.1 147.5,171.6 156,171.6 162.5,168.3 171,183 
+			177.4,194.3 183.8,187.8 192.4,174.8 198.8,169.9 205.2,171.6 213.8,169.9 220.2,179.7 226.6,196 235.2,187.8 241.6,173.2 
+			248,171.6 256.6,169.9 263,168.3 271.6,176.4 278,192.7 284.4,187.8 293,168.3 299.4,129.2 305.8,165 314.4,165 320.8,168.3 
+			327.2,187.8 335.8,183 342.2,166.7 350.7,161.8 357.2,158.5 363.6,160.2 372.1,163.4 378.6,186.2 385,184.6 393.5,166.7 
+			400,160.2 406.4,161.8 414.9,165 421.3,169.9 427.8,187.8 436.3,179.7 442.7,161.8 451.3,160.2 457.7,165 464.1,158.5 
+			472.7,173.2 479.1,189.5 485.5,179.7 494.1,158.5 500.5,158.5 506.9,163.4 515.5,161.8 521.9,173.2 530.5,191.1 536.9,171.6 
+			543.3,140.6 551.9,145.5 558.3,140.6 564.7,143.9 573.3,153.7 579.7,171.6 586.1,163.4 594.7,140.6 601.1,145.5 609.6,86.9 
+			616.1,78.8 622.5,121.1 631,152 637.5,143.9 643.9,124.4 652.4,117.9 658.8,121.1 665.3,122.7 673.8,145.5 680.2,168.3 
+			686.7,160.2 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 9.1014 81.4371)" class="st2 st3">100</text>
+	<text transform="matrix(1 0 0 1 12.4851 152.4966)" class="st2 st3">50</text>
+	<text transform="matrix(1 0 0 1 18.3572 219.0719)" class="st2 st3">0</text>
+	<line class="st1" x1="27.1" y1="13.4" x2="37.1" y2="13.4"/>
+	<text transform="matrix(1 0 0 1 41.4589 16.7586)" class="st4 st5">climate change trend line</text>
+</g>
+<g id="nov">
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 602.5036 262.1208)" class="st2 st6 st7">10/11/16</text>
+</g>
+<g id="sept">
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 281.272 267.8549)" class="st2 st6 st7">27/09/16</text>
+</g>
+<g id="l-sept">
+</g>
+<g id="l-nov">
+</g>
+<g id="Livello_6">
+	<circle class="st8" cx="299.7" cy="129.1" r="10"/>
+	<circle class="st8" cx="616.4" cy="78.4" r="10"/>
+	<line class="st9" x1="299.4" y1="129.2" x2="299.4" y2="217.1"/>
+	<line class="st9" x1="616.1" y1="78.8" x2="616.1" y2="216.4"/>
+</g>
+</svg>

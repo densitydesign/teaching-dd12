@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2016-12-17">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="depht" title="depht" type="string"></attribute>
+      <attribute id="status" title="status" type="string"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="depht" title="depht" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="Post–Kyoto Protocol negotiations on greenhouse gas emissions" label="Post–Kyoto Protocol negotiations on greenhouse gas emissions">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="682.7896" y="678.7129"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Politics of global warming" label="Politics of global warming">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="606.85565" y="250.07933"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Green Climate Fund" label="Green Climate Fund">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="52.0"></viz:size>
+        <viz:position x="1151.2035" y="109.764565"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="2013 United Nations Climate Change Conference" label="2013 United Nations Climate Change Conference">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="44.0"></viz:size>
+        <viz:position x="862.3133" y="493.16284"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" label="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="44.0"></viz:size>
+        <viz:position x="1058.8705" y="337.36523"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Environmental impact of aviation" label="Environmental impact of aviation">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="44.0"></viz:size>
+        <viz:position x="-312.67267" y="-24.20331"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="United Nations Framework Convention on Climate Change and accompanying Kyoto Protocol (CO2 Regulations)" label="United Nations Framework Convention on Climate Change and accompanying Kyoto Protocol (CO2 Regulations)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="44.0"></viz:size>
+        <viz:position x="917.181" y="116.480896"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="2012 United Nations Climate Change Conference" label="2012 United Nations Climate Change Conference">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="1197.5708" y="471.02536"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Climate change denial" label="Climate change denial">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="1076.8926" y="-510.86487"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Vienna Convention for the Protection of the Ozone Layer and accompanying Montreal Protocol (Ozone Regulation - Context)" label="Vienna Convention for the Protection of the Ozone Layer and accompanying Montreal Protocol (Ozone Regulation - Context)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="863.6592" y="301.82974"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="2011 United Nations Climate Change Conference" label="2011 United Nations Climate Change Conference">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="1252.0088" y="303.29474"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="IPCC Fifth Assessment Report" label="IPCC Fifth Assessment Report">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="1081.9098" y="579.2899"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Agnotology" label="Agnotology">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1278.4404" y="-782.682"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Anti-environmentalism" label="Anti-environmentalism">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1119.8949" y="-803.93915"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Information Council on the Environment" label="Information Council on the Environment">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1356.6115" y="-625.322"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="International Conference on Climate Change" label="International Conference on Climate Change">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1174.2263" y="-642.0634"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Renewable energy commercialization#Non-technical barriers to acceptance" label="Renewable energy commercialization#Non-technical barriers to acceptance">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="new"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1008.0808" y="-679.5378"></viz:position>
+        <viz:color r="0" g="124" b="173"></viz:color>
+      </node>
+      <node id="Semmelweis reflex" label="Semmelweis reflex">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="new"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1283.4648" y="-486.7186"></viz:position>
+        <viz:color r="0" g="124" b="173"></viz:color>
+      </node>
+      <node id="Action on climate change" label="Action on climate change">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="-1177.1443" y="-1052.9371"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Hypermobility (travel)" label="Hypermobility (travel)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="new"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="-378.63696" y="-379.92203"></viz:position>
+        <viz:color r="0" g="124" b="173"></viz:color>
+      </node>
+      <node id="Business action on climate change" label="Business action on climate change">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="213.98076" y="467.5416"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Carbon finance" label="Carbon finance">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="125.94502" y="326.06226"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="List of international environmental agreements" label="List of international environmental agreements">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="20.285229" y="1068.0107"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Montreal Protocol" label="Montreal Protocol">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="-248.84065" y="1349.0476"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Kyoto Protocol" label="Kyoto Protocol">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="36.0"></viz:size>
+        <viz:position x="-115.59128" y="826.8168"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Avoiding Dangerous Climate Change" label="Avoiding Dangerous Climate Change">
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-327.89993" y="-557.6753"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Economics of global warming" label="Economics of global warming">
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="538.45496" y="-24.139011"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Scorcher: The Dirty Politics of Climate Change" label="Scorcher: The Dirty Politics of Climate Change">
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1044.7411" y="784.8099"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Vienna Convention for the Protection of the Ozone Layer and accompanying Montreal Protocol (Ozone Regulation — Context)" label="Vienna Convention for the Protection of the Ozone Layer and accompanying Montreal Protocol (Ozone Regulation — Context)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1334.9397" y="416.2654"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Category:Climate change by country" label="Category:Climate change by country">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1405.804" y="498.75327"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="IPCC Fourth Assessment Report" label="IPCC Fourth Assessment Report">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1406.1815" y="323.36255"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Tipping point (climatology)" label="Tipping point (climatology)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1310.2012" y="573.1071"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="4 Degrees and Beyond International Climate Conference" label="4 Degrees and Beyond International Climate Conference">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-452.72174" y="-613.8874"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Climate change mitigation scenarios" label="Climate change mitigation scenarios">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-298.8161" y="-678.5019"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Index of climate change articles" label="Index of climate change articles">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-407.75436" y="-730.60944"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Carbon credit" label="Carbon credit">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="510.80988" y="-140.95506"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Carbon neutral fuel" label="Carbon neutral fuel">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="407.0399" y="-74.61805"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Carbon tax" label="Carbon tax">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="611.3333" y="-206.57663"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="CDM Gold Standard" label="CDM Gold Standard">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="643.9623" y="-101.46582"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Climate change and agriculture" label="Climate change and agriculture">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="502.3661" y="-269.16138"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Emissions trading" label="Emissions trading">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="414.31195" y="-198.29807"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Air transport and the environment (United Kingdom)" label="Air transport and the environment (United Kingdom)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-563.75775" y="71.99151"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Aviation Environment Federation, a UK focused non-profit direct action group" label="Aviation Environment Federation, a UK focused non-profit direct action group">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-429.00067" y="-142.44223"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Biofuels" label="Biofuels">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-442.1092" y="-256.0063"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Continuous descent approach" label="Continuous descent approach">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-561.40173" y="-237.63698"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Electric aircraft" label="Electric aircraft">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-535.404" y="-76.45677"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Flying Matters, a pro-aviation coalition in the United Kingdom" label="Flying Matters, a pro-aviation coalition in the United Kingdom">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-461.65314" y="20.279194"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Hydrogen powered aircraft" label="Hydrogen powered aircraft">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-627.2837" y="-137.55864"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Plane Mad (direct action group)" label="Plane Mad (direct action group)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-333.31152" y="-206.14139"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Sustainable biofuels" label="Sustainable biofuels">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-630.89154" y="-22.119087"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Sustainable Oils" label="Sustainable Oils">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="newo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-430.57568" y="131.46292"></viz:position>
+        <viz:color r="229" g="198" b="122"></viz:color>
+      </node>
+      <node id="Avoiding dangerous climate change" label="Avoiding dangerous climate change">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1582.5172" y="-2086.7017"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Convention on Biological Diversity[39]" label="Convention on Biological Diversity[39]">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1706.73" y="-2382.685"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Tragedy of the commons" label="Tragedy of the commons">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1709.6965" y="-2270.2285"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="List of countries by carbon dioxide emissions" label="List of countries by carbon dioxide emissions">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1608.8995" y="-2441.2537"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="List of countries by carbon dioxide emissions per capita" label="List of countries by carbon dioxide emissions per capita">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1795.8729" y="-2177.8958"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="List of countries by greenhouse gas emissions per capita" label="List of countries by greenhouse gas emissions per capita">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1688.0804" y="-2138.674"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="List of countries by ratio of GDP to carbon dioxide emissions" label="List of countries by ratio of GDP to carbon dioxide emissions">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1602.6633" y="-2224.2734"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Low-carbon and post-carbon economies" label="Low-carbon and post-carbon economies">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1439.2322" y="-2322.1965"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Plug-in hybrid" label="Plug-in hybrid">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1556.545" y="-2331.0068"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Technology Transfer" label="Technology Transfer">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1445.2383" y="-2207.5845"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Carbon Capture and Storage" label="Carbon Capture and Storage">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1486.4054" y="-2435.822"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Greenhouse Development Rights" label="Greenhouse Development Rights">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-1814.0404" y="-2321.216"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Greenhouse Mafia" label="Greenhouse Mafia">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1130.3119" y="870.90076"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="An Inconvenient Truth" label="An Inconvenient Truth">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1239.6428" y="854.29785"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Storms of my Grandchildren" label="Storms of my Grandchildren">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1111.6979" y="998.7236"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Climate Code Red: The Case for Emergency Action" label="Climate Code Red: The Case for Emergency Action">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1225.852" y="979.204"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="List of Australian environmental books" label="List of Australian environmental books">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="1031.8693" y="923.0175"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Climate ethics" label="Climate ethics">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="200.13275" y="1346.9269"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Individual and political action on climate change" label="Individual and political action on climate change">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="91.29091" y="1288.8423"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="United Nations Convention to Combat Desertification" label="United Nations Convention to Combat Desertification">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="270.1502" y="1257.4117"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Alternatives to the Kyoto Protocol and successor" label="Alternatives to the Kyoto Protocol and successor">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-251.44313" y="826.1834"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Asia Pacific Partnership on Clean Development and Climate" label="Asia Pacific Partnership on Clean Development and Climate">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-418.61957" y="967.3413"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Carbon emission trading" label="Carbon emission trading">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-308.44305" y="934.8439"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Clean Development Mechanism" label="Clean Development Mechanism">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="new"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-301.2584" y="716.30634"></viz:position>
+        <viz:color r="0" g="124" b="173"></viz:color>
+      </node>
+      <node id="Climate legislation" label="Climate legislation">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="old"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-401.1251" y="856.3147"></viz:position>
+        <viz:color r="191" g="194" b="190"></viz:color>
+      </node>
+      <node id="Environmental agreements" label="Environmental agreements">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-183.82549" y="700.131"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Environmental tariff" label="Environmental tariff">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-328.64926" y="1045.8369"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="List of climate change initiatives" label="List of climate change initiatives">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-186.25768" y="960.4574"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Low-carbon economy" label="Low-carbon economy">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-65.87318" y="956.43176"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Reducing Emissions from Deforestation and Forest Degradation or REDD" label="Reducing Emissions from Deforestation and Forest Degradation or REDD">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-418.84076" y="742.39996"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="United Nations Framework Convention on Climate Change or UNFCCC" label="United Nations Framework Convention on Climate Change or UNFCCC">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-231.26993" y="1106.141"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="World People's Conference on Climate Change" label="World People's Conference on Climate Change">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-124.64741" y="1052.9852"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Ozone depletion" label="Ozone depletion">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-172.27643" y="1587.3378"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Refrigerant" label="Refrigerant">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-360.98358" y="1456.6625"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="R-134a" label="R-134a">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-259.00427" y="1496.9834"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Greenhouse gases" label="Greenhouse gases">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-312.5484" y="1603.7834"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Vienna Conference (1985)" label="Vienna Conference (1985)">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-417.6836" y="1554.5281"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+      <node id="Green Cooling Initiative" label="Green Cooling Initiative">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="new"></attvalue>
+        </attvalues>
+        <viz:size value="28.0"></viz:size>
+        <viz:position x="-469.824" y="1427.038"></viz:position>
+        <viz:color r="0" g="124" b="173"></viz:color>
+      </node>
+      <node id="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" label="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions   ">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-1533.1122" y="-2166.8179"></viz:position>
+      </node>
+      <node id="United Nations Framework Convention on Climate Change" label="United Nations Framework Convention on Climate Change   ">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="153.79509" y="1159.2491"></viz:position>
+      </node>
+      <node id="Vienna Convention for the Protection of the Ozone Layer" label="Vienna Convention for the Protection of the Ozone Layer">
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+          <attvalue for="status" value="quo"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="432.68408" y="414.7057"></viz:position>
+        <viz:color r="2" g="8" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Politics of global warming" target="2012 United Nations Climate Change Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="Politics of global warming" target="2013 United Nations Climate Change Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="Politics of global warming" target="Avoiding Dangerous Climate Change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="Politics of global warming" target="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="Politics of global warming" target="Economics of global warming">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="Politics of global warming" target="Environmental impact of aviation">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="Politics of global warming" target="Green Climate Fund">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="Politics of global warming" target="Post–Kyoto Protocol negotiations on greenhouse gas emissions">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="Politics of global warming" target="Scorcher: The Dirty Politics of Climate Change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="Politics of global warming" target="United Nations Framework Convention on Climate Change and accompanying Kyoto Protocol (CO2 Regulations)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="Politics of global warming" target="Vienna Convention for the Protection of the Ozone Layer and accompanying Montreal Protocol (Ozone Regulation - Context)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="Politics of global warming" target="Climate change denial">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="2012 United Nations Climate Change Conference" target="2011 United Nations Climate Change Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="2012 United Nations Climate Change Conference" target="2013 United Nations Climate Change Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="2012 United Nations Climate Change Conference" target="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="2012 United Nations Climate Change Conference" target="Green Climate Fund">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="2012 United Nations Climate Change Conference" target="Politics of global warming">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="2012 United Nations Climate Change Conference" target="Post–Kyoto Protocol negotiations on greenhouse gas emissions">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="2012 United Nations Climate Change Conference" target="United Nations Framework Convention on Climate Change and accompanying Kyoto Protocol (CO2 Regulations)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="2012 United Nations Climate Change Conference" target="Vienna Convention for the Protection of the Ozone Layer and accompanying Montreal Protocol (Ozone Regulation — Context)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="2012 United Nations Climate Change Conference" target="Category:Climate change by country">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="2012 United Nations Climate Change Conference" target="IPCC Fourth Assessment Report">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="2012 United Nations Climate Change Conference" target="IPCC Fifth Assessment Report">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="2012 United Nations Climate Change Conference" target="Tipping point (climatology)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="2013 United Nations Climate Change Conference" target="Post–Kyoto Protocol negotiations on greenhouse gas emissions">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="2013 United Nations Climate Change Conference" target="Politics of global warming">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="2013 United Nations Climate Change Conference" target="IPCC Fifth Assessment Report">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="Climate change denial" target="Agnotology" weight="2.0">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="Climate change denial" target="Anti-environmentalism" weight="2.0">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="Climate change denial" target="Information Council on the Environment" weight="2.0">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="Climate change denial" target="International Conference on Climate Change" weight="2.0">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="Climate change denial" target="Renewable energy commercialization#Non-technical barriers to acceptance" weight="2.0">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="Climate change denial" target="Semmelweis reflex" weight="2.0">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="Avoiding Dangerous Climate Change" target="4 Degrees and Beyond International Climate Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="Avoiding Dangerous Climate Change" target="Action on climate change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="Avoiding Dangerous Climate Change" target="Climate change mitigation scenarios">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="Avoiding Dangerous Climate Change" target="Environmental impact of aviation">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="Avoiding Dangerous Climate Change" target="Hypermobility (travel)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="Avoiding Dangerous Climate Change" target="Index of climate change articles">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="United Nations Framework Convention on Climate Change and accompanying Kyoto Protocol (CO2 Regulations)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="2013 United Nations Climate Change Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="2012 United Nations Climate Change Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="2011 United Nations Climate Change Conference">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="Post–Kyoto Protocol negotiations on greenhouse gas emissions">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="Green Climate Fund">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants" target="Vienna Convention for the Protection of the Ozone Layer and accompanying Montreal Protocol (Ozone Regulation - Context)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="Economics of global warming" target="Business action on climate change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="Economics of global warming" target="Carbon credit">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="Economics of global warming" target="Carbon finance">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="Economics of global warming" target="Carbon neutral fuel">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="Economics of global warming" target="Carbon tax">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="Economics of global warming" target="CDM Gold Standard">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="Economics of global warming" target="Climate change and agriculture">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="Economics of global warming" target="Climate change denial">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="Economics of global warming" target="Emissions trading">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="Economics of global warming" target="Politics of global warming">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="Environmental impact of aviation" target="Air transport and the environment (United Kingdom)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="Environmental impact of aviation" target="Aviation Environment Federation, a UK focused non-profit direct action group">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="Environmental impact of aviation" target="Biofuels">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="Environmental impact of aviation" target="Continuous descent approach">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="Environmental impact of aviation" target="Electric aircraft">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="Environmental impact of aviation" target="Flying Matters, a pro-aviation coalition in the United Kingdom">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="Environmental impact of aviation" target="Hydrogen powered aircraft">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="Environmental impact of aviation" target="Hypermobility (travel)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="Environmental impact of aviation" target="Plane Mad (direct action group)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="Environmental impact of aviation" target="Sustainable biofuels">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="Environmental impact of aviation" target="Sustainable Oils">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="Green Climate Fund" target="Green Climate Fund">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Action on climate change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Avoiding dangerous climate change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Convention on Biological Diversity[39]">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Tragedy of the commons">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="List of countries by carbon dioxide emissions">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="List of countries by carbon dioxide emissions per capita">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="List of countries by greenhouse gas emissions per capita">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="List of countries by ratio of GDP to carbon dioxide emissions">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Low-carbon and post-carbon economies">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Plug-in hybrid">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Technology Transfer">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Carbon Capture and Storage">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="Post–Kyoto_Protocol_negotiations_on_greenhouse_gas_emissions" target="Greenhouse Development Rights">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="Scorcher: The Dirty Politics of Climate Change" target="Greenhouse Mafia">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="Scorcher: The Dirty Politics of Climate Change" target="Politics of global warming">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="Scorcher: The Dirty Politics of Climate Change" target="An Inconvenient Truth">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="Scorcher: The Dirty Politics of Climate Change" target="Storms of my Grandchildren">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="Scorcher: The Dirty Politics of Climate Change" target="Climate Code Red: The Case for Emergency Action">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="Scorcher: The Dirty Politics of Climate Change" target="List of Australian environmental books">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="United Nations Framework Convention on Climate Change" target="Climate ethics">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="United Nations Framework Convention on Climate Change" target="Individual and political action on climate change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="United Nations Framework Convention on Climate Change" target="List of international environmental agreements">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="United Nations Framework Convention on Climate Change" target="Montreal Protocol">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="United Nations Framework Convention on Climate Change" target="Kyoto Protocol">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="United Nations Framework Convention on Climate Change" target="Post–Kyoto Protocol negotiations on greenhouse gas emissions">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="United Nations Framework Convention on Climate Change" target="United Nations Convention to Combat Desertification">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="Kyoto Protocol" target="Alternatives to the Kyoto Protocol and successor">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="Kyoto Protocol" target="Asia Pacific Partnership on Clean Development and Climate">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="Kyoto Protocol" target="Business action on climate change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="Kyoto Protocol" target="Carbon emission trading">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="Kyoto Protocol" target="Carbon finance">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="Kyoto Protocol" target="Clean Development Mechanism">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="Kyoto Protocol" target="Climate legislation">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="Kyoto Protocol" target="Environmental agreements">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="Kyoto Protocol" target="Environmental impact of aviation">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="Kyoto Protocol" target="Environmental tariff">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="Kyoto Protocol" target="List of climate change initiatives">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="Kyoto Protocol" target="List of international environmental agreements">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="Kyoto Protocol" target="Low-carbon economy">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="Kyoto Protocol" target="Montreal Protocol">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="Kyoto Protocol" target="Politics of global warming">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="Kyoto Protocol" target="Reducing Emissions from Deforestation and Forest Degradation or REDD">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="Kyoto Protocol" target="United Nations Framework Convention on Climate Change or UNFCCC">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="Kyoto Protocol" target="World People's Conference on Climate Change">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="Montreal Protocol" target="Ozone depletion">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="Montreal Protocol" target="Kyoto Protocol">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="Montreal Protocol" target="Refrigerant">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="Montreal Protocol" target="R-134a">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="Montreal Protocol" target="Greenhouse gases">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="Montreal Protocol" target="Vienna Conference (1985)">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="Montreal Protocol" target="Green Cooling Initiative">
+        <viz:color r="179" g="179" b="179"></viz:color>
+        <attvalues>
+          <attvalue for="depht" value="2"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

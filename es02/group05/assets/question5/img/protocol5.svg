@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 900 708.1" style="enable-background:new 0 0 900 708.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#141414;stroke-width:0.4;stroke-miterlimit:10;}
+	.st1{fill:#141414;}
+	.st2{font-family:'Lekton-Regular';}
+	.st3{font-size:13.3355px;}
+	.st4{fill:#C6006B;}
+	.st5{font-family:'Lekton-Bold';}
+	.st6{fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;stroke-dasharray:4;}
+	.st7{fill:#FFFFFF;}
+</style>
+<polygon class="st0" points="525,66.1 445.9,66.1 366.8,66.1 366.8,21.7 525,21.7 "/>
+<text transform="matrix(1 0 0 1 388.5479 40.5854)" class="st1 st2 st3">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 371.8789 57.6167)" class="st4 st5 st3">Spotify playlist miner</text>
+<line class="st0" x1="445.3" y1="66.1" x2="445.3" y2="93.7"/>
+<line class="st6" x1="445.3" y1="148.4" x2="445.3" y2="176"/>
+<text transform="matrix(1 0 0 1 418.4971 108.1499)" class="st1 st2 st3">- “420”</text>
+<text transform="matrix(1 0 0 1 418.4971 124.1538)" class="st1 st2 st3">- “weed”</text>
+<text transform="matrix(1 0 0 1 418.4971 140.1567)" class="st1 st2 st3">- “stoned”</text>
+<polygon class="st0" points="525,478.7 445.9,478.7 366.8,478.7 366.8,434.3 525,434.3 "/>
+<text transform="matrix(1 0 0 1 391.8818 453.2309)" class="st1 st2 st3">QUERY DEFINITION</text>
+<text transform="matrix(1 0 0 1 408.5508 470.2622)" class="st4 st5 st3">Google play</text>
+<line class="st0" x1="445.3" y1="478.7" x2="445.3" y2="506.3"/>
+<line class="st6" x1="445.3" y1="543.9" x2="445.3" y2="571.6"/>
+<text transform="matrix(1 0 0 1 361.877 520.7974)" class="st1 st2 st3">manual scraping of lyrics</text>
+<text transform="matrix(1 0 0 1 378.5459 536.7993)" class="st1 st2 st3">and publication year</text>
+<text transform="matrix(1 0 0 1 355.209 585.9204)" class="st1 st2 st3">do they refer to marijuana?</text>
+<text transform="matrix(1 0 0 1 415.2188 188.7231)" class="st1 st2 st3">145 songs</text>
+<polygon class="st0" points="833.6,66.1 754.6,66.1 675.6,66.1 675.6,21.7 833.6,21.7 "/>
+<text transform="matrix(1 0 0 1 697.2363 40.5854)" class="st1 st2 st3">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 723.9082 57.6167)" class="st4 st5 st3">Wikipedia</text>
+<line class="st0" x1="754" y1="66.1" x2="754" y2="93.7"/>
+<line class="st6" x1="754" y1="116.9" x2="754" y2="144.5"/>
+<text transform="matrix(1 0 0 1 701.2441 108.1499)" class="st1 st2 st3">“Cannabis songs”</text>
+<polygon class="st0" points="833.6,188.9 754.6,188.9 675.6,188.9 675.6,144.5 833.6,144.5 "/>
+<text transform="matrix(1 0 0 1 697.2363 163.48)" class="st1 st2 st3">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 730.5752 180.5122)" class="st4 st5 st3">YouTube</text>
+<line class="st0" x1="754" y1="188.9" x2="754" y2="216.6"/>
+<text transform="matrix(1 0 0 1 643.8945 235.0473)" class="st1 st2 st3">original playlist from the songs </text>
+<text transform="matrix(1 0 0 1 683.9014 251.0493)" class="st1 st2 st3">of the Wikipedia page</text>
+<polygon class="st0" points="216.3,66.1 137.2,66.1 58.1,66.1 58.1,21.7 216.3,21.7 "/>
+<text transform="matrix(1 0 0 1 79.8584 40.5854)" class="st1 st2 st3">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 113.1973 57.6167)" class="st4 st5 st3">YouTube</text>
+<line class="st0" x1="136.5" y1="66.1" x2="136.5" y2="93.7"/>
+<line class="st6" x1="136.5" y1="148.4" x2="136.5" y2="176"/>
+<text transform="matrix(1 0 0 1 92.332 108.1499)" class="st1 st2 st3">- “marijuana”</text>
+<text transform="matrix(1 0 0 1 92.332 124.1538)" class="st1 st2 st3">- “weed”</text>
+<text transform="matrix(1 0 0 1 92.332 140.1567)" class="st1 st2 st3">- “cannabis”</text>
+<polygon class="st0" points="216.3,220.4 137.2,220.4 58.1,220.4 58.1,176 216.3,176 "/>
+<text transform="matrix(1 0 0 1 79.8584 194.9253)" class="st1 st2 st3">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 86.5264 211.9565)" class="st4 st5 st3">YTDT Video List</text>
+<line class="st6" x1="136.5" y1="220.4" x2="136.5" y2="248"/>
+<line class="st6" x1="136.5" y1="270.9" x2="136.5" y2="412.4"/>
+<line class="st6" x1="754" y1="412.4" x2="136.5" y2="412.4"/>
+<line class="st6" x1="445.3" y1="194.9" x2="445.3" y2="434.3"/>
+<text transform="matrix(1 0 0 1 106.5293 262.4897)" class="st1 st2 st3">159 songs</text>
+<text transform="matrix(1 0 0 1 233.2119 40.5854)" class="st4 st5 st3">» 2 playlists </text>
+<text transform="matrix(1 0 0 1 233.2119 56.5884)" class="st4 st5 st3">per query</text>
+<line class="st6" x1="754" y1="261" x2="754" y2="288.7"/>
+<polygon class="st0" points="833.6,333.1 754.6,333.1 675.6,333.1 675.6,288.7 833.6,288.7 "/>
+<text transform="matrix(1 0 0 1 697.2363 307.6548)" class="st1 st2 st3">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 703.9053 324.686)" class="st4 st5 st3">YTDT Video List</text>
+<line class="st6" x1="754" y1="333.1" x2="754" y2="360.8"/>
+<line class="st6" x1="754" y1="384.7" x2="754" y2="412.4"/>
+<text transform="matrix(1 0 0 1 727.2412 375.2202)" class="st1 st2 st3">81 songs</text>
+<text transform="matrix(1 0 0 1 541.2598 641.5659)" class="st4 st5 st3">» Illustrator</text>
+<polygon class="st4" points="524.2,653 445.3,653 366.2,653 366.2,622.6 524.2,622.6 "/>
+<text transform="matrix(1 0 0 1 401.8779 641.5659)" class="st7 st2 st3">VISUALIZATION</text>
+<line class="st6" x1="445.3" y1="593.9" x2="445.3" y2="625.2"/>
+</svg>

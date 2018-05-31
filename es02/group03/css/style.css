@@ -1,0 +1,288 @@
+/* Add your styles here */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+/* Palette base: nuovi colori */
+h3, a, .introduction h5, .map-line, .menu-sidebar {
+    color: #34e9ad; /* Palette */
+        text-decoration: none;
+}
+a:focus, a:hover {
+    color: #26d79c; /* Palette */
+    text-decoration: none;
+    outline:none;
+}
+.map-line {
+    stroke: #34e9ad;
+}
+.menu-sidebar i{
+    background-color: #34e9ad; /* Palette */
+}
+.sidebar-brand {
+    background-color: #34e9ad; /* Palette */
+}
+.sidebar-nav h5{
+    color: #34e9ad; /* Palette */
+}
+/* Palette base: nuovi colori fine */
+.brandycolor{
+    color: #34e9ad; /* Palette */
+}
+/* **************************************************************************************** */
+
+::-moz-selection {
+    color: #ffffff;
+    background: #26d79c;
+}
+
+::selection {
+    color: #ffffff;
+    background: #26d79c;
+}
+
+/* regola il div delle nostre viz, toglie il bordo brutto e stabilisce l'altezza */
+.listina li {
+  padding-left: 0px;
+line-height: 160%;
+font-size: 18px;
+counter-increment: li;
+list-style-type: none;
+}
+.listina li::before {
+  content: counter(li ); 
+  color:#34e9ad;
+  padding-right: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  width: 2em;
+  margin-left: -2em;
+
+}
+.indent p{
+text-indent: 50px;
+}
+.viz-gruppo-3 {
+    height: 650px;
+    margin: 0px;
+    width: 100%;
+    border: none;
+}
+.diag-gruppo-3 {
+    height: 95vh;
+    margin: 0px;
+    width: 100%;
+    border: none;
+}
+/* inizio Accordion */
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 0px solid transparent;
+  border-radius: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.panel:last-child{
+  border-bottom: 1px solid #DDDDDD; /*benedetto border bottom*/
+}
+.panel-body {
+  padding: 0px;
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+font-size: 1.2em;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #34e9ad !important;
+}
+.panel-heading a, .panel-heading a:hover, .panel-heading a:focus  {
+color: #34e9ad !important;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel-title {
+
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+  font-weight: 600;
+}
+
+.panel > .list-group,
+.panel > .panel-collapse > .list-group {
+  margin-bottom: 0;
+}
+.panel > .list-group .list-group-item,
+.panel > .panel-collapse > .list-group .list-group-item {
+  border-width: 1px 0;
+  border-radius: 0;
+}
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+  border-bottom: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.panel-group {
+  margin-bottom: 20px;
+}
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: none;
+}
+.panel-group .panel + .panel {
+  margin-top: 0px;
+}
+.panel-group .panel-heading {
+  border-bottom: 0;
+  border-color: #f00;
+  border-top: 1px solid #DDDDDD;   /*colore bordo su di satana*/
+}
+.panel-group .panel-footer {
+  border-top: 0;
+}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+}
+.panel-default {
+  border-color: none;
+}
+.panel-default > .panel-heading {
+  color: none;
+  background-color: #fff;
+  border-color: none;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: none;
+  border-top: none;
+}
+.panel-default > .panel-heading .badge {
+  color: ##DDDDDD;                         /*il colore del bordo di satana*/
+  background-color: #fff;
+  border-bottom: none;
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom:  none;
+  border-top: none;
+}
+/* fine Accordion */
+
+/* video seealsology etc */
+.hero-video {
+    display: block;
+    height: auto;
+    margin: 10px auto 0;
+    max-width: 80%;
+}
+
+/* effetto box dello schema in index */
+.box{
+    padding: 20px;
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  text-decoration: none !important;
+  text-transform: none;
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #34e9ad;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+/* fine Underline From Center */
+
+.hide-for-small {
+display: none;
+}
+.hide-for-big {
+display: block;
+}
+.small-only {
+display: none;
+}
+
+@media only screen and (max-width: 1313px) {
+.hide-for-small {
+display: block;
+}
+.hide-for-big {
+display: none;
+}
+
+}
+@media only screen and (max-width: 840px) {
+.hide-for-small {
+display: none;
+}
+.small-only {
+display: block;
+}
+}
+.din-grad{
+background: linear-gradient(273deg, #00dda4, #fffddc, #71ffd0);
+background-size: 600% 600%;
+ -webkit-animation: sfondino 41s ease infinite;
+-moz-animation: sfondino 41s ease infinite;
+animation: sfondino 41s ease infinite;
+}
+
+@-webkit-keyframes sfondino {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes sfondino {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes sfondino {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+

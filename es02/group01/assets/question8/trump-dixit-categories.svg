@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="417.6px" height="56.9px" viewBox="0 0 417.6 56.9" style="enable-background:new 0 0 417.6 56.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#007CA8;stroke:#F5F5F5;stroke-width:2;stroke-miterlimit:10;}
+	.st1{font-family:'CrimsonText-Roman';}
+	.st2{font-size:11px;}
+</style>
+<rect id="personal" x="-1.4" y="33.7" class="st0" width="138.8" height="20.6"/>
+<rect id="work" x="137.5" y="33.7" class="st0" width="118.2" height="20.6"/>
+<rect id="economy" x="255.7" y="33.7" class="st0" width="46" height="20.6"/>
+<rect id="environment" x="301.7" y="33.7" class="st0" width="64.8" height="20.6"/>
+<rect id="agreements" x="366.5" y="33.7" class="st0" width="38.1" height="20.6"/>
+<text transform="matrix(1 0 0 1 2.422 25.5489)" class="st1 st2">personal opinion</text>
+<text transform="matrix(1 0 0 1 139.458 25.5489)" class="st1 st2">work</text>
+<text transform="matrix(1 0 0 1 257.6951 25.5489)" class="st1 st2">economy</text>
+<text transform="matrix(1 0 0 1 303.741 25.5489)" class="st1 st2">environment</text>
+<text transform="matrix(1 0 0 1 368.4929 25.5489)" class="st1 st2">agreements</text>
+</svg>

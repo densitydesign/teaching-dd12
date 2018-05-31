@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<head>
+    <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Are you sure?</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-treemap.css" rel="stylesheet">
+</head>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://www.d3plus.org/js/d3plus.js"></script>
+
+<body>
+    <div class="container-fluid" style="margin-top: 20px">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="treemap-container"></div>
+            </div>
+        </div>
+        <div clss="row ">
+            <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-12" style="margin-top: 20px;">
+                <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	           viewBox="0 0 1440 186.3" style="enable-background:new 0 0 1440 186.3;" xml:space="preserve">
+
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 76.2036 32.5105)" class="st0 st1 st2">Sensitive content</text>
+		<rect y="0" class="st3" width="42.7" height="42.7"/>
+	</g>
+	<text transform="matrix(1 0 0 1 4.882812e-04 103.7879)" class="st0 st1 st4">The integral videos show  </text>
+	<text transform="matrix(1 0 0 1 4.882812e-04 139.7879)" class="st0 st1 st4">graphic content and violence.</text>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 1162.5078 32.5105)" class="st0 st1 st2">Safe content</text>
+		<rect x="1086.3" y="0" class="st5" width="42.7" height="42.7"/>
+	</g>
+	<text transform="matrix(1 0 0 1 1086.3047 103.7879)" class="st0 st1 st4">The videos show the news</text>
+	<text transform="matrix(1 0 0 1 1086.3047 139.7879)" class="st0 st1 st4">that use the pictures of the </text>
+	<text transform="matrix(1 0 0 1 1086.3047 175.7879)" class="st0 st1 st4">victims or their relatives.</text>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 609.1177 32.5105)" class="st0 st1 st2">Censored content</text>
+		<rect x="532.9" y="0" class="st6" width="42.7" height="42.7"/>
+	</g>
+	<text transform="matrix(1 0 0 1 532.9146 103.7879)" class="st0 st1 st4">The integral videos are cutted  </text>
+	<text transform="matrix(1 0 0 1 532.9146 139.7879)" class="st0 st1 st4">or modified in order to hide  </text>
+	<text transform="matrix(1 0 0 1 532.9146 175.7879)" class="st0 st1 st4">graphic scenes.</text>
+</g>
+</svg>
+            </div>
+        </div>
+        <div class="row">
+            <div id="treemap-container"></div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    var color = d3.scale.ordinal()
+        .domain(['Censurato', 'SemiCensurato', 'NonCensurato'])
+        .range(['#e2ab9c', '#be3430', '#561313']);
+    var w = jQuery("#treemap-container").width();
+    var h = jQuery(window).height() - 150;
+
+    var canvas = d3.select("#treemap-container").append("svg") // vado ad agire su treemap container
+        .attr("width", w)
+        .attr("height", h);
+
+    d3.json("json/mydata.json", function(data) {
+        var treemap = d3.layout.treemap()
+            //.size([mywidth,myheight])
+            .size([w, h])
+            .nodes(data)
+
+        var cells = canvas.selectAll(".cell")
+            .data(treemap)
+            .enter()
+            .append("g")
+            .attr("class", "cell")
+            .attr('id', function(d) {
+                return 'platform-' + d.name.replace(/\s/g, '-')
+            }) // va a prendere tutti e dargli un un id platform + il nome della piattaforma
+
+        var links = cells.append('a')
+            .attr("url", function(d) {
+                return d.url;
+            })
+            //.attr('target','_blank')
+            .on('click', function(d) {
+                $.ajax({
+                    method: "POST",
+                    url: "function.php",
+                    data: { name : d.name, url:d.url },
+                    dataType: "json"
+                }).done(function(data) {
+                if(data.response) {
+                    window.location.href = d.url;
+                }
+                });
+                // esegui delle istruzioni che ti permettono di inviare dei dati a firebase.
+            })
+        links.append("rect")
+            .attr("x", function(d) {
+                return d.x;
+            })
+            .attr("y", function(d) {
+                return d.y;
+            })
+            .attr("width", function(d) {
+                return d.dx;
+            })
+            .attr("height", function(d) {
+                return d.dy;
+            })
+            .attr("fill", function(d) {
+                return d.children ? null : color(d.parent.name);
+            })
+            //.attr("xlink:href", function(d){return d.url;})
+            .attr("stroke", "#000000")
+
+        // NOME PIATTAFORMA   
+        links.append("text")
+            .attr('class', 'myTitle')
+            .attr("x", function(d) {
+                return d.x + d.dx / 2
+            })
+            .attr("y", function(d) {
+                return d.y + d.dy / 1.1
+            })
+            .attr("text-anchor", "middle")
+            .attr("font-family", "MetaProBold")
+            .attr("letter-spacing", "0.2px")
+            .attr("font-size", "16px")
+            .attr("fill", "#fff")
+            .text(function(d) {
+                return d.children ? null : d.name;
+            });
+        //.style("fill", "#fff")
+
+        // TITOLO VIDEO
+        links.append("text")
+            .attr("class", function(d) {
+                return d.children ? 'sottotitolo' : d.name;
+            })
+            .attr("x", function(d) {
+                return d.x + d.dx / 2
+            })
+            .attr("y", function(d) {
+                return d.y + d.dy / 5
+            })
+            .attr("width", function(d) {
+                return d.dx;
+            })
+            .attr("height", function(d) {
+                return d.dy;
+            })
+
+        .attr("text-anchor", "middle")
+            .attr("fill", "#fff")
+
+        .text(function(d) {
+            return d.children ? null : d.sottotitolo;
+        })
+        jQuery(document).find('text').css('opacity', 0);
+
+        setTimeout(function() {
+            jQuery.each(jQuery(document).find('text'), function(index, value) {
+                if (value.getComputedTextLength() > jQuery(value).attr('width') - 50) {
+                    var words = jQuery(value).text().split(' ');
+                    var line = new Array();
+                    var length = 0;
+                    var text = "";
+                    var width = jQuery(value).attr('width') - 50;
+                    var height = jQuery(value).attr('height');
+                    var word;
+                    var x = jQuery(value).attr('x');
+                    do {
+                        word = words.shift();
+                        line.push(word);
+                        if (words.length)
+                            this.firstChild.data = line.join(' ') + " " + words[0];
+                        else
+                            this.firstChild.data = line.join(' ');
+                        length = this.getBBox().width;
+                        if (length < width && words.length) {;
+                        } else {
+                            text = line.join(' ');
+                            this.firstChild.data = text;
+                            if (this.getBBox().width > width) {
+                                text = d3.select(this).select(function() {
+                                    return this.lastChild;
+                                }).text();
+                                text = text + "...";
+                                d3.select(this).select(function() {
+                                    return this.lastChild;
+                                }).text(text);
+                                d3.select(this).classed("wordwrapped", true);
+                                break;
+                            } else
+                            ;
+
+                            if (text != '') {
+                                d3.select(this).append("svg:tspan")
+                                    .attr("x", x)
+                                    .attr("dy", "1.5em")
+                                    .text(text);
+                            } else
+                            ;
+
+                            if (this.getBBox().height > height && words.length) {
+                                text = d3.select(this).select(function() {
+                                    return this.lastChild;
+                                }).text();
+                                text = text + "...";
+                                d3.select(this).select(function() {
+                                    return this.lastChild;
+                                }).text(text);
+                                d3.select(this).classed("wordwrapped", true);
+
+                                break;
+                            } else
+                            ;
+
+                            line = new Array();
+                        }
+                    } while (words.length);
+                    this.firstChild.data = '';
+                }
+                jQuery(document).find('text').animate({
+                    opacity: 1
+                }, 500);
+            }, 10);
+        })
+    })
+    </script>
+</body>
+
+</html>

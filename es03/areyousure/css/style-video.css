@@ -1,0 +1,35 @@
+
+
+@font-face { font-family: MetaPro; font-weight:lighter; src: url('MetaPro-Normal.otf'); }
+@font-face { font-family: MetaPro; font-weight:normal; src: url('MetaPro-Medium.otf'); }
+@font-face { font-family: MetaPro; font-weight:bold; src: url('MetaPro-Black.otf'); }
+@font-face { font-family: MetaPro; font-weight:bolder; src: url('MetaPro-Black.otf'); }
+
+
+
+
+body {
+    background-color: #20201d;
+}
+
+
+
+#myvid {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%}
+
+
+
+
+
+
+
+
+
+   
+
+
+

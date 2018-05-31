@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 900 298.4" style="enable-background:new 0 0 900 298.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C6006B;}
+	.st1{font-family:'Lekton-Bold';}
+	.st2{font-size:13.2266px;}
+	.st3{fill:none;stroke:#141414;stroke-width:0.4;stroke-miterlimit:10;}
+	.st4{fill:#141414;}
+	.st5{font-family:'Lekton-Regular';}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;stroke-dasharray:4;}
+	.st8{font-family:'Lekton-Italic';}
+</style>
+<text transform="matrix(1 0 0 1 487.4385 38.4203)" class="st0 st1 st2">» iteration: 2 = 100 results</text>
+<text transform="matrix(1 0 0 1 487.4385 54.2924)" class="st0 st1 st2">» rank by: relevance</text>
+<polygon class="st3" points="470.6,63.6 392.2,63.6 313.9,63.6 313.9,19.6 470.6,19.6 "/>
+<text transform="matrix(1 0 0 1 335.3369 38.4203)" class="st4 st5 st2">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 341.9502 55.3129)" class="st0 st1 st2">YTDT Video List</text>
+<line class="st3" x1="391.5" y1="63.6" x2="391.5" y2="91.2"/>
+<text transform="matrix(1 0 0 1 487.4766 237.1899)" class="st0 st1 st2">» Raw</text>
+<text transform="matrix(1 0 0 1 487.4766 253.0619)" class="st0 st1 st2">» Illustrator</text>
+<polygon class="st0" points="470.6,255.8 392.2,255.8 313.9,255.8 313.9,225.7 470.6,225.7 "/>
+<text transform="matrix(1 0 0 1 349.2334 244.5551)" class="st6 st5 st2">VISUALIZATION</text>
+<line class="st7" x1="392.2" y1="197.2" x2="392.2" y2="228.3"/>
+<text transform="matrix(1 0 0 1 347.708 105.435)" class="st4 st5 st2">- “marijuana”</text>
+<text transform="matrix(1 0 0 1 347.708 121.3071)" class="st4 st5 st2">- “weed”</text>
+<text transform="matrix(1 0 0 1 347.708 137.1791)" class="st4 st5 st2">- “cannabis”</text>
+<text transform="matrix(1 0 0 1 306.2461 187.2133)" class="st4 st8 st2">percentage of music videos</text>
+<line class="st7" x1="392.2" y1="142.3" x2="392.2" y2="173.6"/>
+</svg>

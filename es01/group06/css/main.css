@@ -1,0 +1,565 @@
+body {
+    position: relative;
+}
+
+.row {
+    margin: 0 20px 0 40px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.2em;
+    margin-left: -28px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 6px solid black;
+}
+
+h3 {
+    font-size: 0.8em;
+    font-style: italic;
+    float: right;
+}
+
+p {
+    font-family: 'Asap', sans-serif;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.dark {
+    background-color: #09223c;
+    min-height: 780px;
+    color: #f4f1e9;
+}
+
+.light {
+    background-color: #f4f1e9;
+    min-height: 780px;
+    color: #09223c;
+}
+
+.image-one {
+    display: block;
+    width: 65%;
+    height: 65%;
+    margin: 35px auto;
+}
+
+.image-two {
+    width: 90%;
+    height: 90%;
+    margin-top: 105px;
+    margin-left: 80px;
+}
+
+.image-three {
+    display: block;
+    width: 240px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#relativePos {
+    position: relative;
+}
+
+.imageClick {
+    font-size: 0.5em;
+    font-weight: 500;
+}
+
+#imgClickOne {
+    color: #f4f1e9;
+    position: absolute;
+    top: 268px;
+    left: 112px;
+}
+
+#imgClickTwo {
+    position: absolute;
+    top: 380px;
+    left: 25px
+}
+
+#imgClickThree {
+    position: absolute;
+    top: 380px;
+    left: 119px
+}
+
+#imgClickFour {
+    position: absolute;
+    top: 380px;
+    left: 206px;
+}
+
+#imgClickFive {
+    position: absolute;
+    top: 454px;
+    left: 165px
+}
+
+#imgClickSix {
+    color: #f4f1e9;
+    position: absolute;
+    top: 593px;
+    left: 89px;
+}
+
+#arrayImg2 img {
+    width: 850px;
+}
+
+.myhide {
+    display: none;
+}
+
+.myshow {
+    display: block;
+}
+
+.myred {
+    color: red;
+}
+
+.mycolor {
+    color: red;
+}
+
+.background {
+    background: #09223c url(image/background.png);
+    background-position: center;
+    background-size: 150%;
+}
+
+#firstTitle {
+    margin: 260px 0 0 100px;
+}
+
+#firstTitle h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 7em;
+    font-weight: 500;
+    color: #f4f1e9;
+}
+
+#firstTitle h2 {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    color: #DA4656;
+    margin-top: -10px;
+}
+
+#firstContent {
+    width: 440px;
+    font-size: 1.5em;
+    margin-top: 390px;
+    margin-left: 120px;
+}
+
+mark {
+    color: #d83E49;
+    background: #f4f1e9;
+    font-weight: 800;
+}
+
+#arrayImg2 {
+    float: left;
+    margin-left: 80px;
+}
+
+.timelineL {
+    width: 300px;
+}
+
+.timelineP {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.timelineDiv {
+    margin-top: 100px;
+}
+
+.structure {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+#geghi {
+    width: 95vw;
+    height: 95vh;
+    border: none;
+}
+
+.markdark {
+    background-color: #09223c;
+}
+
+.distribImg {
+    width: 40%;
+}
+
+#recipientsector {
+    margin-left: 20px;
+    margin-top: -100px;
+}
+
+.gapImg {
+    width: 80%;
+    margin-left: 90px;
+}
+
+.mdisLengda {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.space1 {
+    height: 50px;
+    background-color: #f4f1e9;
+}
+
+#buttonCC {
+    margin-left: 140px;
+}
+
+.button {
+    width: 140px;
+    margin: 10px 0 10px 30px;
+    padding: 10px 0;
+    border: 2px solid #09223c;
+    /*    background-color: #9fb7ce;
+    */
+    color: #09223c;
+    font-weight: 800;
+    font-size: 0.8em;
+    float: left;
+}
+
+.selected {
+    width: 140px;
+    margin: 10px 0 10px 30px;
+    padding: 10px 0;
+    border: 2px solid #09223c;
+    background-color: #09223c;
+    color: #f4f1e9;
+    font-weight: 800;
+    font-size: 0.8em;
+    float: left;
+}
+
+.dcimage {
+    width: 90%;
+}
+
+.commitimage {
+    width: 80%;
+}
+
+.iconCommit {
+    width: 8%;
+    margin-right: 10px;
+}
+
+.commitDiv {
+    margin-top: 50px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.transparentimage {
+    width: 100%;
+    margin-top: 80px;
+}
+
+#navbar {
+    background: none;
+    color: #9a865e;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: 'Playfair Display';
+    position: relative;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.navitem {
+    margin-top: 20px;
+    margin-right: 50px;
+    float: left;
+    list-style: none;
+}
+
+.tl_lengda {
+    width: 45%;
+    float: right;
+    margin-top: -20px;
+}
+
+.tl_text {
+    font-style: italic;
+    margin-left: 410px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.relaBehindImg2 {
+    width: 95%;
+    margin-left: 50px;
+    margin-top: -38px;
+}
+
+.relaBehindImg1 {
+    width: 60%;
+    margin-right: 80px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.contributor1 {
+    width: 100%;
+}
+
+.contribContainer {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.BIMULTI {
+    padding-top: 120px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.triImage {
+    width: 15%;
+    margin-top: -205px;
+    margin-left: 500px;
+}
+
+#flow {
+    width: 90%;
+    margin-left: 130px
+}
+
+.triImage2 {
+    width: 15%;
+    margin-left: 587px;
+}
+
+.probImg {
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 135px
+}
+
+.space {
+    width: 100%;
+    height: 50px;
+}
+
+.customDivCon {
+    margin-left: 18px;
+    font-size: 1.5em;
+}
+
+.contributor {
+    width: 100%;
+    margin-left: -5px;
+}
+
+.contributor2 {
+    width: 40%;
+    margin-left: 356px;
+}
+
+.contributor3 {
+    width: 95%;
+    margin-left: 75px;
+    margin-top: -25px;
+}
+
+#myNavbar {
+    background-color: #c6b075;
+    margin: 0px;
+    border: none;
+    border-radius: 0;
+    z-index: 10000;
+}
+
+.cover h1 {
+    font-size: 5em;
+    font-weight: 500;
+    border-left: none;
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    color: #f4f1e9;
+}
+
+.cover h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    color: #d83E49;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.cover p {
+    font-size: 1em;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 220px;
+    color: #f4f1e9;
+}
+
+#myNavbar ul {
+    width: 800px;
+    margin-left: 360px;
+}
+
+#myNavbar li {
+    padding: 0 50px;
+}
+
+#myNavbar a {
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Asap', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #09223c;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #c6b075;
+    color: #d83E49;
+    border-bottom: 5px solid #d83E49;
+    font-size: 1em;
+}
+
+#textparty {
+    width: 120%;
+}
+
+.footer {
+    background-color: #09223c;
+    color: #f4f1e9;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer img {
+    height: 100px;
+}
+
+.footer h4 {
+    font-size: 1.5em;
+    color: #9b865e;
+}
+
+#names {
+    margin-left: 100px;
+}
+
+.container1 {
+    width: 1300px;
+}
+
+.datasource {
+    font-style: italic;
+    font-size: 1em;
+    margin-left: 800px;
+}
+
+.datasource1 {
+    font-style: italic;
+    font-size: 1em;
+}
+
+.datasource2 {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.datasource5 {
+    font-style: italic;
+    font-size: 1em;
+    margin-left: 970px;
+    position: absolute;
+    top: -1200px;
+    left: 132px;
+}
+
+.datasource6 {
+    font-style: italic;
+    font-size: 1em;
+    margin-left: 970px;
+    position: absolute;
+    top: -200px;
+    left: 125px;
+}
+
+.datasource7 {
+    font-style: italic;
+    font-size: 1em;
+    margin-left: 970px;
+    position: absolute;
+    top: 660px;
+    left: 154px;
+}
+
+.datasource8 {
+    font-style: italic;
+    font-size: 1em;
+    margin-left: 970px;
+    position: absolute;
+    top: 1020px;
+    left: 130px;
+}
+
+#three {
+    position: relative;
+}
+
+.datasource9 {
+    font-style: italic;
+    font-size: 1em;
+    margin-left: 970px;
+    position: absolute;
+    top: 1720px;
+    left: 80px;
+}
+
+.datasource10 {
+    font-style: italic;
+    font-size: 1em;
+    margin-left: 970px;
+    position: absolute;
+    top: 2390px;
+    left: 90px;
+}
+
+.conclusion p {
+    margin-left: -15px;
+}

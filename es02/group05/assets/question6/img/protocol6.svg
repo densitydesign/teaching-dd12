@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 900 462.9" style="enable-background:new 0 0 900 462.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C6006B;}
+	.st1{font-family:'Lekton-Bold';}
+	.st2{font-size:13.389px;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'Lekton-Regular';}
+	.st5{fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;stroke-dasharray:4;}
+	.st6{fill:none;stroke:#141414;stroke-width:0.4;stroke-miterlimit:10;}
+	.st7{fill:#141414;}
+	.st8{enable-background:new    ;}
+</style>
+<text transform="matrix(1 0 0 1 493.2207 395.2054)" class="st0 st1 st2">» Illustrator</text>
+<polygon class="st0" points="476.2,406.6 396.8,406.6 317.4,406.6 317.4,376.1 476.2,376.1 "/>
+<text transform="matrix(1 0 0 1 353.2808 395.2054)" class="st3 st4 st2">VISUALIZATION</text>
+<line class="st5" x1="396.8" y1="347.3" x2="396.8" y2="378.8"/>
+<polygon class="st6" points="476.8,73.2 397.4,73.2 318.1,73.2 318.1,28.6 476.8,28.6 "/>
+<text transform="matrix(1 0 0 1 339.8467 47.6486)" class="st7 st4 st2">CORPUS DEFINITION</text>
+<text transform="matrix(1 0 0 1 380.0137 64.7482)" class="st0 st1 st2">Excel</text>
+<line class="st6" x1="396.8" y1="73.2" x2="396.8" y2="101"/>
+<polygon class="st6" points="476.8,283 397.4,283 318.1,283 318.1,238.4 476.8,238.4 "/>
+<text transform="matrix(1 0 0 1 343.894 257.4486)" class="st7 st4 st2">QUERY DEFINITION</text>
+<text transform="matrix(1 0 0 1 377.3665 274.5482)" class="st0 st1 st2">Genius</text>
+<line class="st6" x1="396.8" y1="283" x2="396.8" y2="310.8"/>
+<line class="st5" x1="396.8" y1="155.8" x2="396.8" y2="183.6"/>
+<line class="st5" x1="396.8" y1="208.4" x2="396.8" y2="236.2"/>
+<text transform="matrix(1 0 0 1 296.3613 115.4855)" class="st7 st4 st2">- YouTube corpus from protocol 5</text>
+<text transform="matrix(1 0 0 1 296.3613 131.5855)" class="st7 st4 st2">- Spotify corpus from protocol 5</text>
+<text transform="matrix(1 0 0 1 296.3613 147.5855)" class="st7 st4 st2">- Wikipedia corpus from protocol 5</text>
+<text transform="matrix(1 0 0 1 366.6245 199.0597)" class="st7 st4 st2">349 songs</text>
+<text transform="matrix(1 0 0 1 319.8132 323.5433)" class="st8"><tspan x="0" y="0" class="st7 st4 st2">definition and counting </tspan><tspan x="0" y="16.1" class="st7 st4 st2">of genres and subgenres</tspan></text>
+<text transform="matrix(1 0 0 1 493.8154 63.8009)" class="st0 st1 st2">» exclude doubles</text>
+</svg>

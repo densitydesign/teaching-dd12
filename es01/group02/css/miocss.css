@@ -1,0 +1,41 @@
+
+
+
+
+.pulsante1 {
+    
+ margin-bottom: -20px;
+ width: 200px;
+     
+ 
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ font: bold 12px Avenir;
+ color: #EFEEE1;
+ padding: 10px 20px;
+ border: solid 3px #363638; 
+ border-radius: 1px;  
+ background: none;
+ 
+ border-radius: 1px;
+    
+
+ transition-property: border;
+ transition-duration: 0.1s;
+    
+ 
+}
+
+.pulsante1:hover {
+
+ border: solid 3px #EFEEE1; 
+ border-radius: 1px;    
+    
+   
+}    
+
+.pulsante1:visited {
+  border: solid 3px #EFEEE1; 
+  border-radius: 1px;    
+}
